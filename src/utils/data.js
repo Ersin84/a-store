@@ -145,7 +145,7 @@ const featurePromo = [
   {
     id: 1,
     title: 'Free Shipping',
-    info: 'From $500.00',
+    info: 'From $25.00',
     icon: FiTruck,
   },
   {
@@ -174,7 +174,7 @@ const contactData = [
     title: 'Email Us',
     info: 'Interactively grow empowered for process-centric total linkage.',
     icon: FiMail,
-    contact: 'kachabazar@gmail.com',
+    contact: 'info.wromo@gmail.com',
     className: 'bg-emerald-100',
   },
   {
@@ -182,7 +182,7 @@ const contactData = [
     title: 'Call Us',
     info: 'Distinctively disseminate focused solutions clicks-and-mortar ministate.',
     icon: FiPhoneCall,
-    contact: '029-00124667',
+    contact: '0880-0802773',
     className: 'bg-yellow-100',
   },
   {
