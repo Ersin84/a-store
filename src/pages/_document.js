@@ -12,20 +12,20 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.png" />
           <meta
             property="og:title"
-            content="KachaBazar - React Grocery & Organic Food Store e-commerce Template"
+            content="WromoStudio - Next Studio Wromo Marketplace"
           />
           <meta property="og:type" content="eCommerce Website" />
           <meta
             property="og:description"
-            content="React Grocery & Organic Food Store e-commerce Template"
+            content="Next Studio Wromo Marketplace"
           />
           <meta
             property="og:url"
-            content="https://kachabazar-store.vercel.app/"
+            content="https://wromox.cf/"
           />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/ahossain/image/upload/v1636729752/facebook-page_j7alju.png"
+            content="https://wromox.cf/_next/image?url=%2Fslider%2Fslider-1.jpg&w=640&q=75"
           />
         </Head>
         <body>

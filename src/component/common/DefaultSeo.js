@@ -4,13 +4,13 @@ import { DefaultSeo as NextSeo } from 'next-seo';
 const DefaultSeo = () => {
   return (
     <NextSeo
-      title="KachaBazar - React Grocery & Organic Food Store e-commerce Template"
+      title="WromoStudio - Next Studio Wromo Marketplace"
       openGraph={{
         type: 'website',
         locale: 'en_IE',
-        url: 'https://kachabazar-store.vercel.app/',
+        url: 'https://wromox.cf/',
         site_name:
-          'KachaBazar - React Grocery & Organic Food Store e-commerce Template',
+          'WromoStudio - Next Studio Wromo Marketplace',
       }}
       twitter={{
         handle: '@handle',

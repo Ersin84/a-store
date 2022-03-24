@@ -1,7 +1,7 @@
-KachaBazar Frontend Documentation
+WromoStudio Frontend Documentation
 
 
-Site name : KachaBazar - Grocery & Organic Food Store React Template with Admin Dashboard
+Site name : WromoStudio - Grocery & Organic Food Store React Template with Admin Dashboard
 
 
 Introduction:

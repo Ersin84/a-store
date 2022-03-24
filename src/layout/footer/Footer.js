@@ -147,9 +147,9 @@ const Footer = () => {
                 USA
               </span>
               <br />
-              <span>Tell: 02.356.1666</span>
+              <span>Tel: 08800802773</span>
               <br />
-              <span>Email: ccruidk@test.com</span>
+              <span>Email: support@wromo.com</span>
             </p>
           </div>
         </div>
