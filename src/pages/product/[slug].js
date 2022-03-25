@@ -136,7 +136,7 @@ const ProductScreen = ({ product, relatedProduct }) => {
                         <ul className="flex mt-4">
                           <li className="flex items-center text-center border border-gray-100 rounded-full hover:bg-emerald-500  mr-2 transition ease-in-out duration-500">
                             <FacebookShareButton
-                              url={`https://a-back.vercel.app/product/${router.query.slug}`}
+                              url={`https://wromox.cf/product/${router.query.slug}`}
                               quote="WromoStudio"
                             >
                               <FacebookIcon size={32} round />
@@ -144,7 +144,7 @@ const ProductScreen = ({ product, relatedProduct }) => {
                           </li>
                           <li className="flex items-center text-center border border-gray-100 rounded-full hover:bg-emerald-500  mr-2 transition ease-in-out duration-500">
                             <TwitterShareButton
-                              url={`https://a-back.vercel.app/product/${router.query.slug}`}
+                              url={`https://wromox.cf/product/${router.query.slug}`}
                               quote="WromoStudio"
                             >
                               <TwitterIcon size={32} round />
@@ -152,7 +152,7 @@ const ProductScreen = ({ product, relatedProduct }) => {
                           </li>
                           <li className="flex items-center text-center border border-gray-100 rounded-full hover:bg-emerald-500  mr-2 transition ease-in-out duration-500">
                             <RedditShareButton
-                              url={`https://a-back.vercel.app/product/${router.query.slug}`}
+                              url={`https://wromox.cf/product/${router.query.slug}`}
                               quote="WromoStudio"
                             >
                               <RedditIcon size={32} round />
@@ -160,7 +160,7 @@ const ProductScreen = ({ product, relatedProduct }) => {
                           </li>
                           <li className="flex items-center text-center border border-gray-100 rounded-full hover:bg-emerald-500  mr-2 transition ease-in-out duration-500">
                             <WhatsappShareButton
-                              url={`https://a-back.vercel.app/product/${router.query.slug}`}
+                              url={`https://wromox.cf/product/${router.query.slug}`}
                               quote="WromoStudio"
                             >
                               <WhatsappIcon size={32} round />
@@ -168,7 +168,7 @@ const ProductScreen = ({ product, relatedProduct }) => {
                           </li>
                           <li className="flex items-center text-center border border-gray-100 rounded-full hover:bg-emerald-500  mr-2 transition ease-in-out duration-500">
                             <LinkedinShareButton
-                              url={`https://a-back.vercel.app/product/${router.query.slug}`}
+                              url={`https://wromox.cf/product/${router.query.slug}`}
                               quote="WromoStudio"
                             >
                               <LinkedinIcon size={32} round />
