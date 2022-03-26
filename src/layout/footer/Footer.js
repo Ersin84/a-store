@@ -143,8 +143,8 @@ const Footer = () => {
             </Link>
             <p className="leading-7 font-sans text-sm text-gray-600 mt-3">
               <span>
-                987 Andre Plain Suite High Street 838, <br /> Lake Hestertown,
-                USA
+                Invalidenstraße 13, <br /> Wien,
+                AT
               </span>
               <br />
               <span>Tel: 08800802773</span>
@@ -164,7 +164,7 @@ const Footer = () => {
               </span>
               <ul className="text-sm flex">
                 <li className="flex items-center mr-3 transition ease-in-out duration-500">
-                  <Link href="https://www.facebook.com">
+                  <Link href="https://www.facebook.com/wromomerkant">
                     <a
                       aria-label="Social Link"
                       rel="noreferrer"
@@ -176,7 +176,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="flex items-center  mr-3 transition ease-in-out duration-500">
-                  <Link href="https://twitter.com">
+                  <Link href="https://twitter.com/WromoShop">
                     <a
                       aria-label="Social Link"
                       rel="noreferrer"
@@ -188,7 +188,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="flex items-center mr-3 transition ease-in-out duration-500">
-                  <Link href="https://www.pinterest.com">
+                  <Link href="https://www.pinterest.at/Wromoshop/">
                     <a
                       aria-label="Social Link"
                       rel="noreferrer"

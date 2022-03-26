@@ -29,6 +29,8 @@ module.exports = withPWA({
       'images.unsplash.com',
       'img.icons8.com',
       'i.ibb.co',
+      'wromox.cf',
+      'wromox.com',
       'i.postimg.cc',
       'fakestoreapi.com',
       'res.cloudinary.com',
@@ -38,8 +40,8 @@ module.exports = withPWA({
   },
 });
 
-// const withBundleAnalyzer = require('@next/bundle-analyzer')({
-//   enabled: process.env.ANALYZE === 'true',
-// });
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+   enabled: process.env.ANALYZE === 'true',
+ });
 
-// module.exports = withBundleAnalyzer({});
+ module.exports = withBundleAnalyzer({});
