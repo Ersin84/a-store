@@ -18,7 +18,7 @@ const Card = () => {
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
           Free shipping apply to all orders over shipping{' '}
-          <span className="font-semibold">$100</span>
+          <span className="font-semibold">$25</span>
         </p>
       </li>
       <li className="flex items-center py-3">
@@ -26,7 +26,7 @@ const Card = () => {
           <FiHome />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Home Delivery within <span className="font-semibold">1 Hour</span>
+          Home Delivery within <span className="font-semibold">3 to 12 Day</span>
         </p>
       </li>
       <li className="flex items-center py-3">
@@ -34,7 +34,7 @@ const Card = () => {
           <FiDollarSign />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Cash on Delivery Available
+          Payments guaranteed by PayPal, Credit Card, G Pay, Apple Pay
         </p>
       </li>
       <li className="flex items-center py-3">
@@ -42,7 +42,7 @@ const Card = () => {
           <FiRepeat />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          <span className="font-semibold">7</span> Days returns money back
+          <span className="font-semibold">14</span> Days returns money back
           guarantee
         </p>
       </li>
@@ -60,7 +60,7 @@ const Card = () => {
           <FiSun />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Guaranteed 100% organic from natural products.
+          Guaranteed 100% - Satisfaction guarantees
         </p>
       </li>
 
@@ -69,8 +69,7 @@ const Card = () => {
           <FiMapPin />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Delivery from our pick point Cecilia Chapman, 561-4535 Nulla LA,
-          United States 96522
+          Delivery from our point USA, Austria, Germany or China
         </p>
       </li>
     </ul>
