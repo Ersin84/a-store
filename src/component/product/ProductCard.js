@@ -84,7 +84,7 @@ const ProductCard = ({ product }) => {
                           onClick={() =>
                             updateItemQuantity(item.id, item.quantity + 1)
                           }
-                          disabled={product.quantity === item.quantity}
+                          enabled={product.quantity === item.quantity}
                         >
                           <span className="text-dark text-base">
                             <IoAdd />
@@ -97,7 +97,7 @@ const ProductCard = ({ product }) => {
             ) : (
               <button
                 onClick={() => handleAddItem(product)}
-                disabled={product.quantity < 1}
+                enabled={product.quantity < 1}
                 aria-label="cart"
                 className="h-9 w-9 flex items-center justify-center border border-gray-200 rounded text-emerald-500 hover:border-emerald-500 hover:bg-emerald-500 hover:text-white transition-all"
               >
