@@ -37,7 +37,7 @@ const Login = ({ setShowResetPassword, setModalOpen }) => {
           <div className="form-group">
             <InputArea
               register={register}
-              defaultValue="12345678"
+              defaultValue=""
               label="Password"
               name="password"
               type="password"

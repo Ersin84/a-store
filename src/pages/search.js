@@ -35,7 +35,7 @@ const Search = ({ products }) => {
                     height={380}
                   />
                   <h2 className="text-lg md:text-xl lg:text-2xl xl:text-2xl text-center mt-2 font-medium font-serif text-gray-600">
-                    Sorry, we can not find this product 😞
+                    Sorry, we can not find this product!
                   </h2>
                 </div>
               ) : (
