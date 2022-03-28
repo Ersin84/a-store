@@ -188,7 +188,7 @@ const contactData = [
   {
     id: 3,
     title: 'Location',
-    info: 'Cecilia Chapman, 561-4535 Nulla LA, United States 96522',
+    info: 'Invalidenstraße 13, 1030 Wien, Austria AT',
     icon: FiMapPin,
     contact: '',
     className: 'bg-indigo-100',

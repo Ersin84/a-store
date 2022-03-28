@@ -157,9 +157,9 @@ const InvoiceForDownload = ({ data }) => {
             <View>
               <Image style={styles.logo} src="/logo/logo-color.png" />
               <Text style={styles.info}>
-                Cecilia Chapman, 561-4535 Nulla LA,
+                Invalidenstraße 13, 1030 Wien,
               </Text>
-              <Text style={styles.info}> United States 96522</Text>
+              <Text style={styles.info}> Austria, ATU74771605</Text>
             </View>
           </View>
 
