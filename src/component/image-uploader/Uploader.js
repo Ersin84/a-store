@@ -7,7 +7,7 @@ const Uploader = ({ setImageUrl, imageUrl }) => {
   const [files, setFiles] = useState([]);
   const uploadUrl = process.env.NEXT_PUBLIC_CLOUDINARY_URL;
   const upload_Preset = process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET;
-
+<input type="file" id="fileupload"></input>
   const { getRootProps, getInputProps } = useDropzone({
     accept: 'image/*',
     multiple: false,
