@@ -8,7 +8,7 @@ import Label from '@component/form/Label';
 import Error from '@component/form/Error';
 import Dashboard from '@pages/user/dashboard';
 import InputArea from '@component/form/InputArea';
-// import UserServices from '@services/UserServices';
+import UserServices from '@services/UserServices';
 import { UserContext } from '@context/UserContext';
 import Uploader from '@component/image-uploader/Uploader';
 import { notifySuccess, notifyError } from '@utils/toast';
@@ -28,33 +28,33 @@ const UpdateProfile = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    // if (!imageUrl) {
-    //   notifyError('Image is required!');
-    //   return;
-    // }
-    // setLoading(true);
+     if (!imageUrl) {
+       notifyError('Image is required!');
+       return;
+     }
+     setLoading(true);
 
     notifySuccess('For demo this feature is disable!');
 
-    // const userData = {
-    //   name: data.name,
-    //   email: data.email,
-    //   address: data.address,
-    //   phone: data.phone,
-    //   image: imageUrl,
-    // };
-    // UserServices.updateUser(userInfo._id, userData)
-    //   .then((res) => {
-    //     if (res) {
-    //       setLoading(false);
-    //       notifySuccess('Profile Update Successfully!');
-    //       Cookies.set('userInfo', JSON.stringify(res));
-    //     }
-    //   })
-    //   .catch((err) => {
-    //     setLoading(false);
-    //     notifyError(err ? err?.response?.data?.message : err.message);
-    //   });
+     const userData = {
+       name: data.name,
+       email: data.email,
+       address: data.address,
+       phone: data.phone,
+       image: imageUrl,
+     };
+     UserServices.updateUser(userInfo._id, userData)
+       .then((res) => {
+         if (res) {
+           setLoading(false);
+          notifySuccess('Profile Update Successfully!');
+           Cookies.set('userInfo', JSON.stringify(res));
+         }
+       })
+       .catch((err) => {
+        setLoading(false);
+         notifyError(err ? err?.response?.data?.message : err.message);
+       });
   };
 
   useEffect(() => {
