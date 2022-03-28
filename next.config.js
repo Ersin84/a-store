@@ -30,6 +30,7 @@ module.exports = withPWA({
       'img.icons8.com',
       'i.ibb.co',
       'ae01.alicdn.com',
+      'video.aliexpress-media.com',
       'wromox.cf',
       'wromox.com',
       'i.postimg.cc',
