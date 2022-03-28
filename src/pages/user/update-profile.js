@@ -34,7 +34,7 @@ const UpdateProfile = () => {
      }
      setLoading(true);
 
-    notifySuccess('For demo this feature is disable!');
+    //notifySuccess('For demo this feature is disable!');
 
      const userData = {
        name: data.name,
