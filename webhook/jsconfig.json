@@ -8,7 +8,7 @@ const stripe = require('stripe')('sk_test_9V1KewyvUraAcKbKZ7Y7iAgG00q8h1r9TF');
 // If you are testing your webhook locally with the Stripe CLI you
 // can find the endpoint's secret by running `stripe listen`
 // Otherwise, find your endpoint's secret in your webhook settings in the Developer Dashboard
-const endpointSecret = 'whsec_...';
+const endpointSecret = 'whsec_bUcgcPoSbNcW5Xy3BTyFDxuJHoUkcf35';
 
 // This example uses Express to receive webhooks
 const app = require('express')();
