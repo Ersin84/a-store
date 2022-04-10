@@ -136,7 +136,7 @@ const AboutUs = () => {
                 />
                 <div className="py-4">
                   <h5 className="text-lg font-semibold font-serif">
-                    Niamh Shea
+                    Iulian Ghepes
                   </h5>
                   <span className="opacity-75 text-sm">
                     Co-founder & Executive
@@ -153,7 +153,7 @@ const AboutUs = () => {
                 />
                 <div className="py-4">
                   <h5 className="text-lg font-semibold font-serif">
-                    Orla Dwyer
+                    Simona Grwar
                   </h5>
                   <span className="opacity-75 text-sm">Chief Executive</span>
                 </div>
@@ -168,7 +168,7 @@ const AboutUs = () => {
                 />
                 <div className="py-4">
                   <h5 className="text-lg font-semibold font-serif">
-                    Danien James
+                    Ersin Mower
                   </h5>
                   <span className="opacity-75 text-sm">
                     Co-founder, Chairman
@@ -185,7 +185,7 @@ const AboutUs = () => {
                 />
                 <div className="py-4">
                   <h5 className="text-lg font-semibold font-serif">
-                    Dara Frazier
+                    Mirabel Dewa
                   </h5>
                   <span className="opacity-75 text-sm">
                     Chief Strategy Officer
@@ -202,7 +202,7 @@ const AboutUs = () => {
                 />
                 <div className="py-4">
                   <h5 className="text-lg font-semibold font-serif">
-                    Glenda Arvidson
+                    Even Hama
                   </h5>
                   <span className="opacity-75 text-sm">HR Officer</span>
                 </div>
@@ -217,7 +217,7 @@ const AboutUs = () => {
                 />
                 <div className="py-4">
                   <h5 className="text-lg font-semibold font-serif">
-                    Melvin Davis
+                    Ali Tofees
                   </h5>
                   <span className="opacity-75 text-sm">Lead Developer</span>
                 </div>
