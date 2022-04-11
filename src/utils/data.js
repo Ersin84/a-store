@@ -179,7 +179,7 @@ const contactData = [
   {
     id: 1,
     title: 'Email Us',
-    info: 'Interactively grow empowered for process-centric total linkage.',
+    info: 'The Wromo team will contact you as soon as it is available.',
     icon: FiMail,
     contact: 'info.wromo@gmail.com',
     className: 'bg-emerald-100',
@@ -187,7 +187,7 @@ const contactData = [
   {
     id: 2,
     title: 'Call Us',
-    info: 'Distinctively disseminate focused solutions clicks-and-mortar ministate.',
+    info: 'If the telephone lines are busy you can write to us at the displayed Mail. The Wromo Team will contact you as soon as it is available.',
     icon: FiPhoneCall,
     contact: '0880-0802773',
     className: 'bg-yellow-100',

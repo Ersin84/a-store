@@ -72,9 +72,8 @@ const ContactUs = () => {
                     For any suppoort just send your query
                   </h3>
                   <p className="text-base opacity-90 leading-7">
-                    Collaboratively promote client-focused convergence vis-a-vis
-                    customer directed alignments via plagiarize strategic users
-                    and standardized infrastructures.
+                    Please login to be able to send questions and get in touch with us!
+                    And subscribe if you want to stay up to date with Wromo news and our team and the Community Marketplace.
                   </p>
                 </div>
 
