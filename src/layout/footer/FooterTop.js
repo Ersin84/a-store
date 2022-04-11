@@ -37,7 +37,7 @@ const FooterTop = () => {
                   />
                 </a>
               </Link>
-              <Link href="https://play.google.com/store/apps">
+              <Link href="https://play.google.com/store/apps/details?id=com.wromo.app">
                 <a target="_blank" rel="noreferrer">
                   <Image
                     width={170}

@@ -34,12 +34,12 @@ const NavBarTop = () => {
           <div className="text-gray-700 py-2 font-sans text-xs font-medium border-b flex justify-between items-center">
             <span className="flex items-center">
               <FiPhoneCall className="mr-2" />
-              We are available 24/7, Need help? Call Us:{' '}
+              We are available 24/7, Need help? Email Us:{' '}
               <a
-                href="tel:+012345609"
+                href="mailto:support@wromo.com"
                 className="font-bold text-emerald-500 ml-1"
               >
-                +01234560352
+                support@wromo.com
               </a>
             </span>
 

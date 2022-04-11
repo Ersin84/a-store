@@ -8,9 +8,9 @@ const Banner = () => {
         <div>
           <h1 className="font-serif text-xl">
             <span className="text-emerald-600 font-bold">
-              100% Natural Quality
+              100% Best Quality
             </span>{' '}
-            Organic Product
+             2022
           </h1>
 
           <p className="text-gray-500">

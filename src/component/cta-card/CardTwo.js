@@ -9,7 +9,7 @@ const CardTwo = () => {
         <div className="flex justify-between items-center">
           <div className="lg:w-3/5">
             <span className="text-base lg:text-lg">
-              Organic Products and Food
+              Products and Quick Delivery
             </span>
             <h2 className="font-serif text-lg lg:text-2xl font-bold mb-1">
               Quick Delivery to{' '}
