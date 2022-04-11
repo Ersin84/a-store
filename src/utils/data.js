@@ -96,48 +96,55 @@ const userSidebar = [
 const sliderData = [
   {
     id: 1,
-    title: 'The Best Quality Products Guaranteed!',
-    info: 'Dramatically facilitate effective total linkage for go forward processes...',
+    title: 'The Best Comfortable Shopping!',
+    info: 'Shopping effective product Order comfortable directly from home...Fast Deliveries!',
     url: '/search?Category=biscuits--cakes',
     image: '/slider/slider-1.jpg',
   },
   {
     id: 2,
-    title: 'Best Different Type of Grocery Store',
-    info: 'Quickly aggregate empowered networks after emerging products...',
-    url: '/search?Category=fish--meat',
+    title: 'Best Different Type of Product',
+    info: 'Product Marketplace empowered by Wromo Marketplace & Wromo Studio!',
+    url: '/search?Category=hardware--tools-',
     image: '/slider/slider-2.jpg',
   },
   {
     id: 3,
-    title: 'Quality Freshness Guaranteed!',
-    info: 'Intrinsicly fashion performance based products rather than accurate benefits...',
+    title: 'Quality Guaranteed!',
+    info: 'Intrinsicly Fashion Best Products Rather than accurate Benefits!',
     url: '/search?category=fresh-vegetable',
     image: '/slider/slider-3.jpg',
+  },
+  {
+    id: 4,
+    title: 'Beauty Health & Tools Beauty!',
+    info: 'Product Health & Tools Beauty guarantees you Glamor the ideal sparkle you are looking for!',
+    url: '/search?category=beauty--health',
+    image: '/slider/slider-4.jpg',
   },
 ];
 
 const ctaCardData = [
   {
     id: 1,
-    title: 'Taste of',
+    title: 'Shopping of',
     subTitle: 'Fresh & Natural',
     image: '/cta/cta-bg-1.jpg',
     url: '/search?category=fresh-vegetable',
   },
   {
     id: 2,
-    title: 'Taste of',
-    subTitle: 'Fish & Meat',
+    title: 'Shopping of',
+    subTitle: 'Hardware & Tools',
     image: '/cta/cta-bg-2.jpg',
-    url: '/search?Category=fish--meat',
+    url: '/search?Category=hardware--tools-',
   },
   {
     id: 3,
-    title: 'Taste of',
+    title: 'Shopping of',
     subTitle: 'Bread & Bakery',
     image: '/cta/cta-bg-3.jpg',
-    url: '/search?Category=biscuits--cakes',
+    url: '/search?Category=beauty--health',
   },
 ];
 
