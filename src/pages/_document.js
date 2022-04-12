@@ -12,12 +12,12 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.png" />
           <meta
             property="og:title"
-            content="WromoStudio - Next Studio Wromo Marketplace"
+            content="NextWromo - Next Studio Marketplace"
           />
           <meta property="og:type" content="eCommerce Website" />
           <meta
             property="og:description"
-            content="Next Studio Wromo Marketplace"
+            content="Next Studio Marketplace by Wromo"
           />
           <meta
             property="og:url"

@@ -10,7 +10,7 @@ const DefaultSeo = () => {
         locale: 'en_IE',
         url: 'https://wromox.cf/',
         site_name:
-          'WromoStudio - Next Studio Wromo Marketplace',
+          'WromoStudio - Next Wromo Marketplace',
       }}
       twitter={{
         handle: '@handle',
