@@ -4,13 +4,13 @@ import { DefaultSeo as NextSeo } from 'next-seo';
 const DefaultSeo = () => {
   return (
     <NextSeo
-      title="WromoStudio - Next Studio Wromo Marketplace"
+      title="Next WromoStudio - Next Shopping Marketplace by Wromo"
       openGraph={{
         type: 'website',
         locale: 'en_IE',
         url: 'https://wromox.cf/',
         site_name:
-          'WromoStudio - Next Wromo Marketplace',
+          'Next WromoStudio - Next Shopping Marketplace by Wromo',
       }}
       twitter={{
         handle: '@handle',

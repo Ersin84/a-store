@@ -134,14 +134,14 @@ export const getStaticProps = async () => {
   };
 };
 
-// export const getServerSideProps = async () => {
-//   const products = await ProductServices.getShowingProducts();
+ export const getServerSideProps = async () => {
+   const products = await ProductServices.getShowingProducts();
 
-//   return {
-//     props: {
-//       products,
-//     },
-//   };
-// };
+   return {
+     props: {
+       products,
+     },
+   };
+ };
 
 export default Home;
