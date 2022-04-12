@@ -211,26 +211,26 @@ const ProductScreen = ({ product, relatedProduct }) => {
 
 //you can use getServerSideProps alternative for getStaticProps and getStaticPaths
 
- export const getServerSideProps = async (context) => {
-   const { slug } = context.params;
-   const products = await ProductServices.getShowingProducts();
-   const product = await ProductServices.getProductBySlug(slug);
+// export const getServerSideProps = async (context) => {
+//   const { slug } = context.params;
+//   const products = await ProductServices.getShowingProducts();
+//   const product = await ProductServices.getProductBySlug(slug);
 
-   let relatedProduct= [];
-   if (slug) {
-     const selectProduct = products.find((product) => product.slug === slug);
-     relatedProduct = products.filter(
-       (product) => product.children === selectProduct.children
-     );
-   }
+//   let relatedProduct= [];
+//   if (slug) {
+//     const selectProduct = products.find((product) => product.slug === slug);
+//     relatedProduct = products.filter(
+//       (product) => product.children === selectProduct.children
+//     );
+//   }
 
-   return {
-     props: {
-       product,
-       relatedProduct,
-     },
-   };
- };
+//   return {
+//     props: {
+//       product,
+//       relatedProduct,
+//     },
+//   };
+// };
 
 //use getStaticPaths and getStaticProps when in production this will make faster load data
 
