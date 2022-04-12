@@ -1,7 +1,7 @@
 WromoStudio Frontend Documentation
 
 
-Site name : WromoStudio - Grocery & Organic Food Store React Template with Admin Dashboard
+Site name : NextWromo - Themes & Digital Store - Marketplace
 
 
 Introduction:
