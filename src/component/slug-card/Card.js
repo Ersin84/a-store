@@ -17,7 +17,7 @@ const Card = () => {
           <FiTruck />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Free shipping apply to all orders over shipping{' '}
+          Free shipping apply to all orders over {' '}
           <span className="font-semibold">$25</span>
         </p>
       </li>
