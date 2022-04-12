@@ -26,7 +26,7 @@ const Card = () => {
           <FiHome />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Home Delivery within <span className="font-semibold">3 to 12 Day</span>
+          Home Delivery within <span className="font-semibold">1 to 12 Day</span>
         </p>
       </li>
       <li className="flex items-center py-3">
