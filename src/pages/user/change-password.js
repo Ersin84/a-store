@@ -6,7 +6,7 @@ import Cookies from 'js-cookie';
 import Error from '@component/form/Error';
 import Dashboard from '@pages/user/dashboard';
 import InputArea from '@component/form/InputArea';
-// import UserServices from '@services/UserServices';
+import UserServices from '@services/UserServices';
 import { notifyError, notifySuccess } from '@utils/toast';
 
 const ChangePassword = () => {
@@ -19,13 +19,13 @@ const ChangePassword = () => {
 
   const onSubmit = ({ email, currentPassword, newPassword }) => {
     notifySuccess('This feature is disable for demo!');
-    // UserServices.changePassword({ email, currentPassword, newPassword })
-    //   .then((res) => {
-    //     notifySuccess(res.message);
-    //   })
-    //   .catch((err) => {
-    //     notifyError(err ? err.response.data.message : err.message);
-    //   });
+     UserServices.changePassword({ email, currentPassword, newPassword })
+       .then((res) => {
+         notifySuccess(res.message);
+       })
+       .catch((err) => {
+         notifyError(err ? err.response.data.message : err.message);
+       });
   };
 
   useEffect(() => {
