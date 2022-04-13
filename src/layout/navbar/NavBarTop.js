@@ -36,10 +36,10 @@ const NavBarTop = () => {
               <FiPhoneCall className="mr-2" />
               We are available 24/7, Need help? Email Us:{' '}
               <a
-                href="mailto:support@wromo.com"
+                href="mailto:info.wromo@gmail.com"
                 className="font-bold text-emerald-500 ml-1"
               >
-                support@wromo.com
+                info.wromo@gmail.com
               </a>
             </span>
 

@@ -147,9 +147,9 @@ const Footer = () => {
                 AT
               </span>
               <br />
-              <span>Tel: 08800802773</span>
+              <span>Email: suppoort@wrommo.com</span>
               <br />
-              <span>Email: support@wromo.com</span>
+              <span>Email: info.wromo@gmail.com</span>
             </p>
           </div>
         </div>
@@ -227,9 +227,9 @@ const Footer = () => {
             </div>
             <div className="col-span-1 text-center hidden lg:block md:block">
               <p className="text-base leading-7 font-medium block">
-                Call Us Today!
+                Mail Us Today!
               </p>
-              <h5 className="text-2xl font-bold text-emerald-500 leading-7">+08800802773</h5>
+              <h5 className="text-2xl font-bold text-emerald-500 leading-7">info.wromo@gmail.com</h5>
             </div>
             <div className="col-span-1 hidden lg:block md:block">
               <ul className="lg:text-right">
@@ -257,7 +257,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-emerald-500"
             >
-              Wromo Studio
+              Wromo Studio & WromoX
             </a>
           </Link>
           , All rights reserved.
