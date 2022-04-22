@@ -28,7 +28,7 @@
     "js-cookie": "^3.0.1",
     "jspdf": "^2.5.0",
     "next": "^12.0.2",
-    "next-auth": "^3.29.0",
+    "next-auth": "^4.3.2",
     "next-pwa": "^5.4.0",
     "next-seo": "^4.28.1",
     "rc-drawer": "^4.4.2",
