@@ -69,11 +69,11 @@ const ContactUs = () => {
               >
                 <div className="mb-12">
                   <h3 className="text-xl md:text-2xl lg:text-3xl font-semibold font-serif mb-3">
-                    For any suppoort just send your query
+                    Für Unterstützung senden Sie einfach Ihre Anfrage
                   </h3>
                   <p className="text-base opacity-90 leading-7">
-                    Please login to be able to send questions and get in touch with us!
-                    And subscribe if you want to stay up to date with Wromo news and our team and the Community Marketplace.
+                     Bitte melden Sie sich an, um Fragen senden und mit uns in Kontakt treten zu können!
+                     Und abonnieren Sie, wenn Sie über Wromo-Neuigkeiten, unser Team und den Community-Marktplatz auf dem Laufenden bleiben möchten.
                   </p>
                 </div>
 

@@ -22,7 +22,7 @@ const Faq = () => {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex justify-between w-full px-4 py-3 text-base font-medium text-left text-gray-600 focus:text-emerald-500 bg-gray-50 hover:bg-emerald-50 rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                      <span>How does the Wromo Studio work?</span>
+                      <span>Wie funktioniert das Supermarket Wromo ?</span>
                       <ChevronUpIcon
                         className={`${
                           open ? 'transform rotate-180 text-emerald-500' : ''
@@ -53,8 +53,8 @@ const Faq = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-3 pb-8 text-sm leading-7 text-gray-500">
-                    Tausende Artikel zu dir geliefert: market ist Wiens schneller Online-Supermarkt. Hier bestellst du Lebensmittel, frisches Obst & Gemüse, süße & pikante Snacks, Getränke sowie alles für den Haushalt und freust dich über eine Lieferung innerhalb Wien.
-                    Entdecke jetzt das laufend Angebot und bestell bequem Online!
+                    Tausende Artikel zu dir geliefert: Markt ist Wiens schneller Online-Supermarkt. Hier beststellst du Lebensmittel, frisches Obst & Gemüse, süße & pikante Snacks, Getränke sowie alles für den Haushalt und freust dich über eine Lieferung innerhalb Wiens.
+                    Entdecken Sie jetzt das laufende Angebot und bestellen Sie bequem online!
                     </Disclosure.Panel>
                   </>
                 )}
@@ -95,12 +95,12 @@ const Faq = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-3 pb-8 text-sm leading-7 text-gray-500">
-                      Continually impact seamless imperatives for best-of-breed
-                      best practices. Phosfluorescently facilitate parallel
-                      applications with unique imperatives. Proactively
-                      plagiarize functionalized deliverables via inexpensive
-                      solutions. Collaboratively embrace web-enabled
-                      infomediaries rather than diverse testing procedures.
+                       Beeinflussen Sie kontinuierlich nahtlose Imperative für Best-of-Breed
+                       empfohlene Vorgehensweise. Parallele Phosfluoreszenz erleichtern
+                       Anwendungen mit einzigartigen Imperativen. Proaktiv
+                       plagiieren funktionalisierte Ergebnisse über preiswert
+                       Lösungen. Machen Sie sich gemeinsam webfähig
+                       Infomediaries statt diverser Testverfahren.
                     </Disclosure.Panel>
                   </>
                 )}

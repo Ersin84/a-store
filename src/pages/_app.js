@@ -26,7 +26,5 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-import ReactGA from 'react-ga';
-const TRACKING_ID = "G-1FPWCHHJVM"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+
 export default MyApp;
