@@ -14,5 +14,4 @@ const PageHeader = ({ title }) => {
     </div>
   );
 };
-
 export default PageHeader;
