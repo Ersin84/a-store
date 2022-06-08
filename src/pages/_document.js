@@ -12,7 +12,7 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.png" />
           <meta
             property="og:title"
-            content="NextWromo - Next Studio Marketplace"
+            content="Lieferdienst - Wien Online einfach Bestellen"
           />
           <meta property="og:type" content="eCommerce Website" />
           <meta

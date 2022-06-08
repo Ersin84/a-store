@@ -119,9 +119,8 @@ const AboutUs = () => {
                   Our Founder
                 </h3>
                 <p className="mt-2 md:mt-3 font-normal block text-base">
-                  We’re impartial and independent, and every day we create
-                  distinctive, world-class reintermediate backend supply
-                  programmes.
+                Wir sind unparteiisch und unabhängig und schaffen jeden Tag etwas unverwechselbares, erstklassiges Backend-Reintermediate-Angebot
+                   Programme.
                 </p>
               </div>
             </div>
@@ -139,7 +138,7 @@ const AboutUs = () => {
                     Iulian Ghepes
                   </h5>
                   <span className="opacity-75 text-sm">
-                    Co-founder & Executive
+                    Mitbegründer & Geschäftsführer
                   </span>
                 </div>
               </div>
@@ -155,7 +154,7 @@ const AboutUs = () => {
                   <h5 className="text-lg font-semibold font-serif">
                     Simona Grwar
                   </h5>
-                  <span className="opacity-75 text-sm">Chief Executive</span>
+                  <span className="opacity-75 text-sm">Geschäftsführer</span>
                 </div>
               </div>
               <div className="max-w-sm">
@@ -171,7 +170,7 @@ const AboutUs = () => {
                     Ersin Mower
                   </h5>
                   <span className="opacity-75 text-sm">
-                    Co-founder, Chairman
+                    Mitbegründer, Vorsitzender
                   </span>
                 </div>
               </div>
@@ -204,7 +203,7 @@ const AboutUs = () => {
                   <h5 className="text-lg font-semibold font-serif">
                     Even Hama
                   </h5>
-                  <span className="opacity-75 text-sm">HR Officer</span>
+                  <span className="opacity-75 text-sm">Personalreferent</span>
                 </div>
               </div>
               <div className="max-w-sm">
@@ -219,7 +218,7 @@ const AboutUs = () => {
                   <h5 className="text-lg font-semibold font-serif">
                     Ali Tofees
                   </h5>
-                  <span className="opacity-75 text-sm">Lead Developer</span>
+                  <span className="opacity-75 text-sm">Leitender Entwickler</span>
                 </div>
               </div>
             </div>

@@ -32,7 +32,7 @@ const ProductScreen = ({ product, relatedProduct }) => {
 
   //comment this when using getServerSideProps
   if (router.isFallback) {
-    return <div>Loading...</div>;
+    return <div>Wird geladen...</div>;
   }
 
   return (
@@ -111,7 +111,7 @@ const ProductScreen = ({ product, relatedProduct }) => {
                         onClick={() => handleAddItem(product)}
                         className="leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold text-center justify-center border-0 border-transparent rounded-md placeholder-white focus-visible:outline-none focus:outline-none bg-emerald-500 text-white px-5 md:px-6 lg:px-8 py-3 md:py-3.5 lg:py-3 mt-6 hover:text-white hover:bg-emerald-600 h-12 text-sm lg:text-base w-full sm:w-auto"
                       >
-                        Add to Cart
+                        in den Warenkorb legen
                       </button>
 
                       <div className="flex flex-col mt-4">
@@ -127,11 +127,11 @@ const ProductScreen = ({ product, relatedProduct }) => {
                       {/* social share */}
                       <div className="mt-8">
                         <h3 className="text-base font-semibold mb-1 font-serif">
-                          Share your social network
+                          Teilen Sie Ihr soziales Netzwerk
                         </h3>
                         <p className="font-sans text-sm text-gray-500">
-                          For get lots of traffic from social network share this
-                          product
+                        Teilen Sie dies, um viel Verkehr aus sozialen Netzwerken zu erhalten
+                           Produkt
                         </p>
                         <ul className="flex mt-4">
                           <li className="flex items-center text-center border border-gray-100 rounded-full hover:bg-emerald-500  mr-2 transition ease-in-out duration-500">

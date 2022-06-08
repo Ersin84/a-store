@@ -39,9 +39,9 @@ const Order = ({ params }) => {
         <div className="max-w-screen-2xl mx-auto py-10 px-3 sm:px-6">
           <div className="bg-emerald-100 rounded-md mb-5 px-4 py-3">
             <label>
-              Thank you{' '}
+              Vielen Dank{' '}
               <span className="font-bold text-emerald-600">{data.name},</span>{' '}
-              Your order have been received !
+              Ihre Bestellung ist eingegangen !
             </label>
           </div>
           <div className="bg-white rounded-lg shadow-sm">

@@ -92,10 +92,10 @@ const Checkout = () => {
                       <div className="col-span-6 sm:col-span-3">
                         <InputArea
                           register={register}
-                          label="Phone number"
-                          name="contact"
+                          label="Telefonnummer"
+                          name="Kontakt"
                           type="tel"
-                          placeholder="+062-6532956"
+                          placeholder="+43-6532956"
                         />
 
                         <Error errorName={errors.contact} />
@@ -105,17 +105,17 @@ const Checkout = () => {
 
                   <div className="form-group mt-12">
                     <h2 className="font-semibold font-serif text-base text-gray-700 pb-3">
-                      02. Shipping Details
+                      02. Versanddetails
                     </h2>
 
                     <div className="grid grid-cols-6 gap-6 mb-8">
                       <div className="col-span-6">
                         <InputArea
                           register={register}
-                          label="Street address"
+                          label="Adresse"
                           name="address"
                           type="text"
-                          placeholder="123 Boulevard Rd, Beverley Hills"
+                          placeholder="Invalidenstraße 13, 1030 Wien"
                         />
                         <Error errorName={errors.address} />
                       </div>
@@ -137,7 +137,7 @@ const Checkout = () => {
                           label="Country"
                           name="country"
                           type="text"
-                          placeholder="United States"
+                          placeholder="Österreich"
                         />
                         <Error errorName={errors.country} />
                       </div>
@@ -145,8 +145,8 @@ const Checkout = () => {
                       <div className="col-span-6 sm:col-span-3 lg:col-span-2">
                         <InputArea
                           register={register}
-                          label="ZIP / Postal"
-                          name="zipCode"
+                          label="PLZ / Post"
+                          name="Postleitzahl"
                           type="text"
                           placeholder="2345"
                         />
@@ -182,7 +182,7 @@ const Checkout = () => {
 
                   <div className="form-group mt-12">
                     <h2 className="font-semibold font-serif text-base text-gray-700 pb-3">
-                      03. Payment Details
+                      03. Zahlungsdetails
                     </h2>
                     {showCard && (
                       <div className="mb-3">
@@ -195,7 +195,7 @@ const Checkout = () => {
                         <InputPayment
                           setShowCard={setShowCard}
                           register={register}
-                          name="Cash On Delivery"
+                          name="Barzahlung bei Lieferung"
                           value="COD"
                           Icon={IoWalletSharp}
                         />
@@ -222,7 +222,7 @@ const Checkout = () => {
                           <span className="text-xl mr-2">
                             <IoReturnUpBackOutline />
                           </span>
-                          Continue Shopping
+                          Mit dem Einkaufen fortfahren
                         </a>
                       </Link>
                     </div>
@@ -232,7 +232,7 @@ const Checkout = () => {
                         enabled={isEmpty || !stripe || isCheckoutSubmit}
                         className="bg-emerald-500 hover:bg-emerald-600 border border-emerald-500 transition-all rounded py-3 text-center text-sm font-serif font-medium text-white flex justify-center w-full"
                       >
-                        Confirm Order{' '}
+                        Bestellung bestätigen{' '}
                         <span className="text-xl ml-2">
                           {' '}
                           <IoArrowForward />
@@ -247,7 +247,7 @@ const Checkout = () => {
             <div className="md:w-full lg:w-2/5 lg:ml-10 xl:ml-14 md:ml-6 flex flex-col h-full md:sticky lg:sticky top-28 md:order-2 lg:order-2">
               <div className="border p-5 lg:px-8 lg:py-8 rounded-lg bg-white order-1 sm:order-2">
                 <h2 className="font-semibold font-serif text-lg pb-4">
-                  Order Summary
+                  Bestellübersicht
                 </h2>
 
                 <div className="overflow-y-scroll flex-grow scrollbar-hide w-full max-h-64 bg-gray-50 block">
@@ -261,7 +261,7 @@ const Checkout = () => {
                         <IoBagHandle />
                       </span>
                       <h2 className="font-medium font-serif text-sm pt-2 text-gray-600">
-                        No Item Added Yet!
+                       Noch kein Artikel hinzugefügt!
                       </h2>
                     </div>
                   )}
@@ -272,7 +272,7 @@ const Checkout = () => {
                     {couponInfo.couponCode ? (
                       <span className="bg-emerald-50 px-4 py-3 leading-tight w-full rounded-md flex justify-between">
                         {' '}
-                        <p className="text-emerald-600">Coupon Applied </p>{' '}
+                        <p className="text-emerald-600">Gutschein angewendet </p>{' '}
                         <span className="text-red-500 text-right">
                           {couponInfo.couponCode}
                         </span>
@@ -289,36 +289,36 @@ const Checkout = () => {
                           onClick={handleCouponCode}
                           className="md:text-sm leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold text-center justify-center border border-gray-200 rounded-md placeholder-white focus-visible:outline-none focus:outline-none px-5 md:px-6 lg:px-8 py-3 md:py-3.5 lg:py-3 mt-3 sm:mt-0 sm:ml-3 md:mt-0 md:ml-3 lg:mt-0 lg:ml-3 hover:text-white hover:bg-emerald-500 h-12 text-sm lg:text-base w-full sm:w-auto"
                         >
-                          Apply
+                          Betätigen
                         </button>
                       </div>
                     )}
                   </form>
                 </div>
                 <div className="flex items-center py-2 text-sm w-full font-semibold text-gray-500 last:border-b-0 last:text-base last:pb-0">
-                  Subtotal
+                   Zwischensumme
                   <span className="ml-auto flex-shrink-0 text-gray-800 font-bold">
-                    ${cartTotal.toFixed(2)}
+                    €{cartTotal.toFixed(2)}
                   </span>
                 </div>
                 <div className="flex items-center py-2 text-sm w-full font-semibold text-gray-500 last:border-b-0 last:text-base last:pb-0">
                   Shipping Cost
                   <span className="ml-auto flex-shrink-0 text-gray-800 font-bold">
-                    ${shippingCost.toFixed(2)}
+                    €{shippingCost.toFixed(2)}
                   </span>
                 </div>
                 <div className="flex items-center py-2 text-sm w-full font-semibold text-gray-500 last:border-b-0 last:text-base last:pb-0">
-                  Discount
+                   Rabatt
                   <span className="ml-auto flex-shrink-0 font-bold text-orange-400">
-                    ${discountAmount.toFixed(2)}
+                    €{discountAmount.toFixed(2)}
                   </span>
                 </div>
                 <div className="border-t mt-4">
                   <div className="flex items-center font-bold font-serif justify-between pt-5 text-sm uppercase">
-                    Total cost
+                      Gesamtkosten
                     <span className="font-serif font-extrabold text-lg">
                       {' '}
-                      ${Math.round(total)}.00
+                      €{Math.round(total)}.00
                     </span>
                   </div>
                 </div>

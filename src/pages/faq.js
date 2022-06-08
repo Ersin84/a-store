@@ -53,13 +53,8 @@ const Faq = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-3 pb-8 text-sm leading-7 text-gray-500">
-                      Distinctively initiate error-free channels with highly
-                      efficient ROI. Intrinsicly envisioneer world-class data
-                      via best-of-breed best practices. Efficiently enable
-                      empowered e-tailers after cross-unit services. Uniquely
-                      expedite seamless e-tailers via cooperative interfaces.
-                      Monotonectally myocardinate customer directed
-                      meta-services whereas error-free scenarios.
+                    Tausende Artikel zu dir geliefert: market ist Wiens schneller Online-Supermarkt. Hier bestellst du Lebensmittel, frisches Obst & Gemüse, süße & pikante Snacks, Getränke sowie alles für den Haushalt und freust dich über eine Lieferung innerhalb Wien.
+                    Entdecke jetzt das laufend Angebot und bestell bequem Online!
                     </Disclosure.Panel>
                   </>
                 )}
@@ -69,7 +64,7 @@ const Faq = () => {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex justify-between w-full px-4 py-3 text-base font-medium text-left text-gray-600 focus:text-emerald-500 bg-gray-50 hover:bg-emerald-50 rounded-lg focus:outline-none">
-                      <span>Whice payment method you should accept?</span>
+                      <span>Welche Zahlungsmethode Sie akzeptieren sollten?</span>
                       <ChevronUpIcon
                         className={`${
                           open ? 'transform rotate-180 text-emerald-500' : ''

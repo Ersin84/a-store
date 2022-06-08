@@ -17,11 +17,21 @@ const Layout = ({ title, description, children }) => {
         <Head>
           <title>
             {title
-              ? `WromoStudio | ${title}`
-              : 'WromoStudio - Next Studio Wromo Marketplace'}
+              ? `Lieferdienst | ${title}`
+              : ' Wien Online einfach Bestellen'}
           </title>
           {description && <meta name="description" content={description} />}
           <link ref="icon" href="/favicon.png" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FPWCHHJVM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1FPWCHHJVM');
+</script>
         </Head>
         <NavBarTop />
         <Navbar />

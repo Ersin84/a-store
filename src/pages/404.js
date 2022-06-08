@@ -7,7 +7,7 @@ const NotFound = () => {
   return (
     <>
       <Head>
-        <title>WromoStudio | 404</title>
+        <title>Lieferdienst | 404 Wien Online einfach Bestellen</title>
         <meta name="description" content="This is page not found 404 page" />
         <link rel="icon" href="/favicon.png" />
       </Head>
@@ -15,10 +15,10 @@ const NotFound = () => {
         <div className="block justify-items-stretch mx-auto items-center text-center">
           <Image width={650} height={450} src="/404.svg" alt="logo" />
           <h2 className="font-bold font-serif font-2xl lg:text-4xl leading-6 mb-4">
-            Page is not found!
+            Seite nicht gefunden!
           </h2>
           <p className="block text-center text-base font-sans text-gray-600">
-            Sorry! This page is not found! Please try again later.
+            Es tut uns leid! Diese Seite wurde nicht gefunden! Bitte versuchen Sie es später erneut.
           </p>
 
           <Link href="/">
