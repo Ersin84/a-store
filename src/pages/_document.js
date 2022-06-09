@@ -19,6 +19,9 @@ class MyDocument extends Document {
             property="og:description"
             content="Next Studio Marketplace by Wromo"
           />
+          <script src="https://apis.google.com/js/platform.js" async defer></script>
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+          <meta name="google-signin-client_id" content="162887562432-b05sed3sm3ajh9h055hp1n5fi667g4i1.apps.googleusercontent.com"></meta>
           <meta
             property="og:url"
             content="https://wromox.cf/"
