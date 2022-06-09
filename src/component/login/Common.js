@@ -6,14 +6,16 @@ import Login from '@component/login/Login';
 import Register from '@component/login/Register';
 import ResetPassword from '@component/login/ResetPassword';
 import useLoginSubmit from '@hooks/useLoginSubmit';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import GoogleOneTapLogin from 'react-google-one-tap-login';
+import { useGoogleOneTapLogin } from 'react-google-one-tap-login';
 
-ReactDOM.render(
-  <GoogleOneTapLogin onError={(error) => console.log(error} onSuccess={(response) => console.log(response} googleAccountConfigs={{ client_id:162887562432-b05sed3sm3ajh9h055hp1n5fi667g4i1.apps.googleusercontent.com }} />,
-  document.getElementById('root')
-);
+useGoogleOneTapLogin({
+    onError: error => console.log(error),
+    onSuccess: response => console.log(response),
+    googleAccountConfigs: {
+      client_id: 162887562432-b05sed3sm3ajh9h055hp1n5fi667g4i1.apps.googleusercontent.com
+    },
+  });
+
 
 const Common = ({ setModalOpen }) => {
   const [showRegister, setShowRegister] = useState(false);
@@ -65,8 +67,6 @@ const Common = ({ setModalOpen }) => {
               >
                 <ImGoogle /> <span className="ml-2">Login With Google</span>
                 <script src="https://apis.google.com/js/platform.js" async defer></script>
-                <div class="g-signin2" data-onsuccess="onSignIn"></div>
-                <meta name="google-signin-client_id" content="162887562432-b05sed3sm3ajh9h055hp1n5fi667g4i1.apps.googleusercontent.com"></meta>
 
               </button>
             )}
