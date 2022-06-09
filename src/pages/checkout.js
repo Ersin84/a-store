@@ -19,6 +19,7 @@ import InputArea from '@component/form/InputArea';
 import InputShipping from '@component/form/InputShipping';
 import InputPayment from '@component/form/InputPayment';
 import useCheckoutSubmit from '@hooks/useCheckoutSubmit';
+import {PaymentElement} from '@stripe/react-stripe-js';
 
 const Checkout = () => {
   const {
