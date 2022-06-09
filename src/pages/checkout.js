@@ -215,18 +215,6 @@ const Checkout = () => {
                       </div>
                     </div>
                   </div>
-
-                 
-                      <div className="col-span-6 sm:col-span-3">
-                        <InputPayment
-                          setShowCard={setShowCard}
-                          register={register}
-                          name="PayPal"
-                          value="PayPal"
-                          Icon={PayPal}
-                        />
-                        <Error errorName={errors.paymentMethod} />
-                      </div>
                   
 
                   <div className="grid grid-cols-6 gap-4 lg:gap-6 mt-10">
