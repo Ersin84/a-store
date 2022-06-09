@@ -68,18 +68,6 @@ app.post('/webhook', express.raw({type: 'application/json'}), (request, response
       const refund = event.data.object;
       // Then define and call a function to handle the event application_fee.refund.updated
       break;
-    case 'billing_portal.configuration.created':
-      const configuration = event.data.object;
-      // Then define and call a function to handle the event billing_portal.configuration.created
-      break;
-    case 'billing_portal.configuration.updated':
-      const configuration = event.data.object;
-      // Then define and call a function to handle the event billing_portal.configuration.updated
-      break;
-    case 'billing_portal.session.created':
-      const session = event.data.object;
-      // Then define and call a function to handle the event billing_portal.session.created
-      break;
     case 'charge.captured':
       const charge = event.data.object;
       // Then define and call a function to handle the event charge.captured
@@ -96,9 +84,41 @@ app.post('/webhook', express.raw({type: 'application/json'}), (request, response
       const charge = event.data.object;
       // Then define and call a function to handle the event charge.pending
       break;
+    case 'charge.refunded':
+      const charge = event.data.object;
+      // Then define and call a function to handle the event charge.refunded
+      break;
     case 'charge.succeeded':
       const charge = event.data.object;
       // Then define and call a function to handle the event charge.succeeded
+      break;
+    case 'charge.updated':
+      const charge = event.data.object;
+      // Then define and call a function to handle the event charge.updated
+      break;
+    case 'charge.dispute.closed':
+      const dispute = event.data.object;
+      // Then define and call a function to handle the event charge.dispute.closed
+      break;
+    case 'charge.dispute.created':
+      const dispute = event.data.object;
+      // Then define and call a function to handle the event charge.dispute.created
+      break;
+    case 'charge.dispute.funds_reinstated':
+      const dispute = event.data.object;
+      // Then define and call a function to handle the event charge.dispute.funds_reinstated
+      break;
+    case 'charge.dispute.funds_withdrawn':
+      const dispute = event.data.object;
+      // Then define and call a function to handle the event charge.dispute.funds_withdrawn
+      break;
+    case 'charge.dispute.updated':
+      const dispute = event.data.object;
+      // Then define and call a function to handle the event charge.dispute.updated
+      break;
+    case 'charge.refund.updated':
+      const refund = event.data.object;
+      // Then define and call a function to handle the event charge.refund.updated
       break;
     case 'checkout.session.async_payment_failed':
       const session = event.data.object;
@@ -116,29 +136,81 @@ app.post('/webhook', express.raw({type: 'application/json'}), (request, response
       const session = event.data.object;
       // Then define and call a function to handle the event checkout.session.expired
       break;
-    case 'coupon.created':
-      const coupon = event.data.object;
-      // Then define and call a function to handle the event coupon.created
-      break;
-    case 'coupon.deleted':
-      const coupon = event.data.object;
-      // Then define and call a function to handle the event coupon.deleted
-      break;
-    case 'coupon.updated':
-      const coupon = event.data.object;
-      // Then define and call a function to handle the event coupon.updated
-      break;
     case 'customer.created':
       const customer = event.data.object;
       // Then define and call a function to handle the event customer.created
+      break;
+    case 'customer.deleted':
+      const customer = event.data.object;
+      // Then define and call a function to handle the event customer.deleted
       break;
     case 'customer.updated':
       const customer = event.data.object;
       // Then define and call a function to handle the event customer.updated
       break;
+    case 'customer.discount.created':
+      const discount = event.data.object;
+      // Then define and call a function to handle the event customer.discount.created
+      break;
+    case 'customer.discount.deleted':
+      const discount = event.data.object;
+      // Then define and call a function to handle the event customer.discount.deleted
+      break;
+    case 'customer.discount.updated':
+      const discount = event.data.object;
+      // Then define and call a function to handle the event customer.discount.updated
+      break;
+    case 'customer.source.created':
+      const source = event.data.object;
+      // Then define and call a function to handle the event customer.source.created
+      break;
+    case 'customer.source.deleted':
+      const source = event.data.object;
+      // Then define and call a function to handle the event customer.source.deleted
+      break;
+    case 'customer.source.expiring':
+      const source = event.data.object;
+      // Then define and call a function to handle the event customer.source.expiring
+      break;
+    case 'customer.source.updated':
+      const source = event.data.object;
+      // Then define and call a function to handle the event customer.source.updated
+      break;
+    case 'customer.subscription.created':
+      const subscription = event.data.object;
+      // Then define and call a function to handle the event customer.subscription.created
+      break;
+    case 'customer.subscription.deleted':
+      const subscription = event.data.object;
+      // Then define and call a function to handle the event customer.subscription.deleted
+      break;
+    case 'customer.subscription.pending_update_applied':
+      const subscription = event.data.object;
+      // Then define and call a function to handle the event customer.subscription.pending_update_applied
+      break;
+    case 'customer.subscription.pending_update_expired':
+      const subscription = event.data.object;
+      // Then define and call a function to handle the event customer.subscription.pending_update_expired
+      break;
+    case 'customer.subscription.trial_will_end':
+      const subscription = event.data.object;
+      // Then define and call a function to handle the event customer.subscription.trial_will_end
+      break;
+    case 'customer.subscription.updated':
+      const subscription = event.data.object;
+      // Then define and call a function to handle the event customer.subscription.updated
+      break;
     case 'customer.tax_id.created':
       const taxId = event.data.object;
       // Then define and call a function to handle the event customer.tax_id.created
+      break;
+    case 'customer.tax_id.deleted':
+      const taxId = event.data.object;
+      // Then define and call a function to handle the event customer.tax_id.deleted
+      break;
+    case 'customer.tax_id.updated':
+      const taxId = event.data.object;
+      // Then define and call a function to handle the event customer.tax_id.updated
       break;
     case 'identity.verification_session.canceled':
       const verificationSession = event.data.object;
@@ -152,13 +224,21 @@ app.post('/webhook', express.raw({type: 'application/json'}), (request, response
       const verificationSession = event.data.object;
       // Then define and call a function to handle the event identity.verification_session.processing
       break;
+    case 'identity.verification_session.redacted':
+      const verificationSession = event.data.object;
+      // Then define and call a function to handle the event identity.verification_session.redacted
+      break;
+    case 'identity.verification_session.requires_input':
+      const verificationSession = event.data.object;
+      // Then define and call a function to handle the event identity.verification_session.requires_input
+      break;
     case 'identity.verification_session.verified':
       const verificationSession = event.data.object;
       // Then define and call a function to handle the event identity.verification_session.verified
       break;
-    case 'invoice.finalization_failed':
+    case 'invoice.deleted':
       const invoice = event.data.object;
-      // Then define and call a function to handle the event invoice.finalization_failed
+      // Then define and call a function to handle the event invoice.deleted
       break;
     case 'invoice.finalized':
       const invoice = event.data.object;
@@ -167,14 +247,6 @@ app.post('/webhook', express.raw({type: 'application/json'}), (request, response
     case 'invoice.paid':
       const invoice = event.data.object;
       // Then define and call a function to handle the event invoice.paid
-      break;
-    case 'invoice.payment_action_required':
-      const invoice = event.data.object;
-      // Then define and call a function to handle the event invoice.payment_action_required
-      break;
-    case 'invoice.payment_failed':
-      const invoice = event.data.object;
-      // Then define and call a function to handle the event invoice.payment_failed
       break;
     case 'invoice.payment_succeeded':
       const invoice = event.data.object;
@@ -196,17 +268,13 @@ app.post('/webhook', express.raw({type: 'application/json'}), (request, response
       const invoiceitem = event.data.object;
       // Then define and call a function to handle the event invoiceitem.updated
       break;
-    case 'issuing_authorization.created':
-      const issuingAuthorization = event.data.object;
-      // Then define and call a function to handle the event issuing_authorization.created
+    case 'issuing_card.created':
+      const issuingCard = event.data.object;
+      // Then define and call a function to handle the event issuing_card.created
       break;
-    case 'issuing_authorization.request':
-      const issuingAuthorization = event.data.object;
-      // Then define and call a function to handle the event issuing_authorization.request
-      break;
-    case 'issuing_authorization.updated':
-      const issuingAuthorization = event.data.object;
-      // Then define and call a function to handle the event issuing_authorization.updated
+    case 'issuing_card.updated':
+      const issuingCard = event.data.object;
+      // Then define and call a function to handle the event issuing_card.updated
       break;
     case 'issuing_transaction.created':
       const issuingTransaction = event.data.object;
@@ -228,6 +296,10 @@ app.post('/webhook', express.raw({type: 'application/json'}), (request, response
       const order = event.data.object;
       // Then define and call a function to handle the event order.payment_succeeded
       break;
+    case 'order.updated':
+      const order = event.data.object;
+      // Then define and call a function to handle the event order.updated
+      break;
     case 'payment_link.created':
       const paymentLink = event.data.object;
       // Then define and call a function to handle the event payment_link.created
@@ -235,6 +307,22 @@ app.post('/webhook', express.raw({type: 'application/json'}), (request, response
     case 'payment_link.updated':
       const paymentLink = event.data.object;
       // Then define and call a function to handle the event payment_link.updated
+      break;
+    case 'payment_method.attached':
+      const paymentMethod = event.data.object;
+      // Then define and call a function to handle the event payment_method.attached
+      break;
+    case 'payment_method.automatically_updated':
+      const paymentMethod = event.data.object;
+      // Then define and call a function to handle the event payment_method.automatically_updated
+      break;
+    case 'payment_method.detached':
+      const paymentMethod = event.data.object;
+      // Then define and call a function to handle the event payment_method.detached
+      break;
+    case 'payment_method.updated':
+      const paymentMethod = event.data.object;
+      // Then define and call a function to handle the event payment_method.updated
       break;
     case 'payout.canceled':
       const payout = event.data.object;
@@ -256,25 +344,41 @@ app.post('/webhook', express.raw({type: 'application/json'}), (request, response
       const price = event.data.object;
       // Then define and call a function to handle the event price.created
       break;
+    case 'price.deleted':
+      const price = event.data.object;
+      // Then define and call a function to handle the event price.deleted
+      break;
     case 'price.updated':
       const price = event.data.object;
       // Then define and call a function to handle the event price.updated
       break;
-    case 'recipient.created':
-      const recipient = event.data.object;
-      // Then define and call a function to handle the event recipient.created
+    case 'product.created':
+      const product = event.data.object;
+      // Then define and call a function to handle the event product.created
       break;
-    case 'recipient.updated':
-      const recipient = event.data.object;
-      // Then define and call a function to handle the event recipient.updated
+    case 'product.deleted':
+      const product = event.data.object;
+      // Then define and call a function to handle the event product.deleted
       break;
-    case 'sku.created':
-      const sku = event.data.object;
-      // Then define and call a function to handle the event sku.created
+    case 'product.updated':
+      const product = event.data.object;
+      // Then define and call a function to handle the event product.updated
       break;
-    case 'sku.updated':
-      const sku = event.data.object;
-      // Then define and call a function to handle the event sku.updated
+    case 'setup_intent.setup_failed':
+      const setupIntent = event.data.object;
+      // Then define and call a function to handle the event setup_intent.setup_failed
+      break;
+    case 'setup_intent.succeeded':
+      const setupIntent = event.data.object;
+      // Then define and call a function to handle the event setup_intent.succeeded
+      break;
+    case 'tax_rate.created':
+      const taxRate = event.data.object;
+      // Then define and call a function to handle the event tax_rate.created
+      break;
+    case 'tax_rate.updated':
+      const taxRate = event.data.object;
+      // Then define and call a function to handle the event tax_rate.updated
       break;
     case 'terminal.reader.action_failed':
       const reader = event.data.object;
@@ -296,13 +400,29 @@ app.post('/webhook', express.raw({type: 'application/json'}), (request, response
       const topup = event.data.object;
       // Then define and call a function to handle the event topup.failed
       break;
+    case 'topup.reversed':
+      const topup = event.data.object;
+      // Then define and call a function to handle the event topup.reversed
+      break;
+    case 'topup.succeeded':
+      const topup = event.data.object;
+      // Then define and call a function to handle the event topup.succeeded
+      break;
     case 'transfer.created':
       const transfer = event.data.object;
       // Then define and call a function to handle the event transfer.created
       break;
+    case 'transfer.failed':
+      const transfer = event.data.object;
+      // Then define and call a function to handle the event transfer.failed
+      break;
     case 'transfer.paid':
       const transfer = event.data.object;
       // Then define and call a function to handle the event transfer.paid
+      break;
+    case 'transfer.reversed':
+      const transfer = event.data.object;
+      // Then define and call a function to handle the event transfer.reversed
       break;
     case 'transfer.updated':
       const transfer = event.data.object;
