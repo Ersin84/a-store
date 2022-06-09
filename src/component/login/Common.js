@@ -56,6 +56,10 @@ const Common = ({ setModalOpen }) => {
                 disabled={renderProps.disabled}
               >
                 <ImGoogle /> <span className="ml-2">Login With Google</span>
+                <script src="https://apis.google.com/js/platform.js" async defer></script>
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+<meta name="google-signin-client_id" content="162887562432-b05sed3sm3ajh9h055hp1n5fi667g4i1.apps.googleusercontent.com"></meta>
+
               </button>
             )}
             onSuccess={handleGoogleSignIn}
