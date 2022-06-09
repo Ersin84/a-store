@@ -19,7 +19,7 @@ import InputArea from '@component/form/InputArea';
 import InputShipping from '@component/form/InputShipping';
 import InputPayment from '@component/form/InputPayment';
 import useCheckoutSubmit from '@hooks/useCheckoutSubmit';
-import {PaymentElement} from '@stripe/react-stripe-js';
+
 
 const Checkout = () => {
   const {
@@ -96,7 +96,7 @@ const Checkout = () => {
                           label="Telefonnummer"
                           name="Kontakt"
                           type="tel"
-                          placeholder="+43-6532956"
+                          placeholder="+43-65302956"
                         />
 
                         <Error errorName={errors.contact} />
@@ -161,9 +161,9 @@ const Checkout = () => {
                         <InputShipping
                           handleShippingCost={handleShippingCost}
                           register={register}
-                          value="FedEx"
-                          time="Today"
-                          cost={60}
+                          value="Kurierlieferung"
+                          time="Lieblingszeit"
+                          cost={5}
                         />
                         <Error errorName={errors.shippingOption} />
                       </div>
@@ -172,9 +172,9 @@ const Checkout = () => {
                         <InputShipping
                           handleShippingCost={handleShippingCost}
                           register={register}
-                          value="UPS"
-                          time="7 Days"
-                          cost={20}
+                          value="Kurierlieferung"
+                          time="Sofort"
+                          cost={5}
                         />
                         <Error errorName={errors.shippingOption} />
                       </div>
@@ -207,7 +207,7 @@ const Checkout = () => {
                         <InputPayment
                           setShowCard={setShowCard}
                           register={register}
-                          name="Credit Card"
+                          name="Kreditkarte"
                           value="Card"
                           Icon={ImCreditCard}
                         />
@@ -215,6 +215,19 @@ const Checkout = () => {
                       </div>
                     </div>
                   </div>
+
+                 
+                      <div className="col-span-6 sm:col-span-3">
+                        <InputPayment
+                          setShowCard={setShowCard}
+                          register={register}
+                          name="PayPal"
+                          value="PayPal"
+                          Icon={PayPal}
+                        />
+                        <Error errorName={errors.paymentMethod} />
+                      </div>
+                  
 
                   <div className="grid grid-cols-6 gap-4 lg:gap-6 mt-10">
                     <div className="col-span-6 sm:col-span-3">
@@ -303,7 +316,7 @@ const Checkout = () => {
                   </span>
                 </div>
                 <div className="flex items-center py-2 text-sm w-full font-semibold text-gray-500 last:border-b-0 last:text-base last:pb-0">
-                  Shipping Cost
+                   Versandkosten
                   <span className="ml-auto flex-shrink-0 text-gray-800 font-bold">
                     €{shippingCost.toFixed(2)}
                   </span>
@@ -316,7 +329,7 @@ const Checkout = () => {
                 </div>
                 <div className="border-t mt-4">
                   <div className="flex items-center font-bold font-serif justify-between pt-5 text-sm uppercase">
-                      Gesamtkosten
+                     Gesamtkosten
                     <span className="font-serif font-extrabold text-lg">
                       {' '}
                       €{Math.round(total)}.00
