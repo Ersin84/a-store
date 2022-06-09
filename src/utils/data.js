@@ -29,12 +29,12 @@ const pages = [
   //   icon: FiUser,
   // },
   {
-    title: 'Offer',
+    title: 'Angebot',
     href: '/offer',
     icon: FiGift,
   },
   {
-    title: 'Checkout',
+    title: 'Kasse',
     href: '/checkout',
     icon: IoBagCheckOutline,
   },
@@ -44,17 +44,17 @@ const pages = [
     icon: FiHelpCircle,
   },
   {
-    title: 'About Us',
+    title: 'Über uns',
     href: '/about-us',
     icon: HiOutlineUserGroup,
   },
   {
-    title: 'Contact Us',
+    title: 'Kontaktiere uns',
     href: '/contact-us',
     icon: HiOutlinePhoneIncoming,
   },
   {
-    title: 'Privacy Policy',
+    title: 'Datenschutz-Bestimmungen',
     href: '/privacy-policy',
     icon: HiOutlineShieldCheck,
   },
@@ -77,17 +77,17 @@ const userSidebar = [
     icon: IoGridOutline,
   },
   {
-    title: 'My Orders',
+    title: 'Meine Bestellungen',
     href: '/user/my-orders',
     icon: IoListOutline,
   },
   {
-    title: 'Update Profile',
+    title: 'Profil aktualisieren',
     href: '/user/update-profile',
     icon: IoSettingsOutline,
   },
   {
-    title: 'Change Password',
+    title: 'Passwort ändern',
     href: '/user/change-password',
     icon: HiOutlineDocumentText,
   },
@@ -157,8 +157,8 @@ const featurePromo = [
   },
   {
     id: 2,
-    title: 'Support 24/7',
-    info: 'At Anytime',
+    title: 'Unterstützung',
+    info: 'jederzeit',
     icon: FiPhoneCall,
   },
   {

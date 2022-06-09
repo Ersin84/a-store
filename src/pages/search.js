@@ -51,13 +51,13 @@ const Search = ({ products }) => {
                       className="py-0 text-sm font-serif font-medium block w-full rounded border-0 bg-white pr-10 cursor-pointer focus:ring-0"
                     >
                       <option className="px-3" value="All" defaultValue hidden>
-                        Sort By Price
+                        Nach Preis sortieren
                       </option>
                       <option className="px-3" value="Low">
-                        Low to High
+                        Aufsteigend
                       </option>
                       <option className="px-3" value="High">
-                        High to Low
+                        Absteigend
                       </option>
                     </select>
                   </span>
