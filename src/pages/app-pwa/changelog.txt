@@ -1,0 +1,29 @@
+Version 1.0.1 - August 2, 2021
+- New Added: Three(3) New Vendor Page
+- Updated: Design Quality
+- Created: 'Static' Folder Under the Main Folder. This Folder Contains All Static Content (Like - CSS/JS/Images/Fonts)
+- Updated: Bootstrap v5.0.0-beta2 > Bootstrap v5.0.2
+- Updated: Owl Carousel 2.2.1 > Owl Carousel 2.3.4
+- Updated: Documentation 1 > Documentation 1.1
+- Improved: Design Quality (Chat Page)
+- Fixed: Some Minor Issue
+- Updated: Bootstrap v5.0.0-beta1 > Bootstrap v5.0.0-beta2
+- Added: CSS Autoprefixer in npm (Now no need to use SCSS mixins for CSS
+- Fixed: Some Minor Bugs
+- New Added: About Us Page
+- New Added: Contact Page
+- New Added: OTP Page
+- New Added: OTP Confirmation Page
+- New Added: Featured Product Page
+- Improved: Responsive Quality (Smartphone - Tablet - Laptop - Desktop)
+- Updated: LineIcons 1.0 > LineIcons 2.0
+- Improved: Dark Mode Improved
+- New Added: LineIcons Web Icons Font
+- New Added: Blog & Blog Details Pages
+
+
+Version 1.0.0
+- Initial Realease
+
+
+
