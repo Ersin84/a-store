@@ -8,6 +8,7 @@ import {
   Font,
 } from '@react-pdf/renderer';
 import dayjs from 'dayjs';
+import logo from '../../../public/logo/logo-color.png';
 
 Font.register({
   family: 'Open Sans',

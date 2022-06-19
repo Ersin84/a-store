@@ -197,6 +197,9 @@ const useCheckoutSubmit = () => {
       );
       return;
     } else {
+      notifySuccess(
+        `Your Coupon ${result[0].title} is Applied on ${result[0].productType}!`
+      );
       setMinimumAmount(result[0]?.minimumAmount);
       setDiscountProductType(result[0].productType);
       setDiscountPercentage(result[0].discountPercentage);
