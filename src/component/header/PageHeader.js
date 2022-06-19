@@ -1,5 +1,4 @@
 import React from "react";
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J5C7KBJ229"></script>
 
 {description && <meta name="description" content={description} />}
 
