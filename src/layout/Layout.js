@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { ToastContainer } from 'react-toastify';
-
+import importScript from './utils/gtag';
 //internal import
 import Navbar from '@layout/navbar/Navbar';
 import Footer from '@layout/footer/Footer';
@@ -22,8 +22,6 @@ const Layout = ({ title, description, children }) => {
           </title>
           {description && <meta name="description" content={description} />}
           <link ref="icon" href="/favicon.png" />
-
-         <importScripts import  from 'src/utils/gtag' />
 
         </Head>
         <NavBarTop />
