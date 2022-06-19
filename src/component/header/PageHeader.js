@@ -1,4 +1,5 @@
 import React from "react";
+import importScript from '/public/gtag';
 {description && <meta name="description" content={description} />}
 
 const PageHeader = ({ title }) => {

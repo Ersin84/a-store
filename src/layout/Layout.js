@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import { ToastContainer } from 'react-toastify';
-import importScript from './utils/gtag';
 //internal import
 import Navbar from '@layout/navbar/Navbar';
 import Footer from '@layout/footer/Footer';
