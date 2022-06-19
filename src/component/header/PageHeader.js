@@ -1,6 +1,6 @@
 import React from "react";
+{description && <meta name="description" content={description} />}
 
-<script src="https://js.stripe.com/v3/"></script>
 const PageHeader = ({ title }) => {
   return (
     <div className="flex justify-center py-10 lg:py-20 bg-indigo-100 w-full bg-cover bg-no-repeat bg-bottom bg-page-header">
