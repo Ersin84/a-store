@@ -141,12 +141,7 @@ const Faq = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-3 pb-8 text-sm leading-7 text-gray-500">
-                      Continually impact seamless imperatives for best-of-breed
-                      best practices. Phosfluorescently facilitate parallel
-                      applications with unique imperatives. Proactively
-                      plagiarize functionalized deliverables via inexpensive
-                      solutions. Collaboratively embrace web-enabled
-                      infomediaries rather than diverse testing procedures.
+                     Beeinflussen Sie kontinuierlich nahtlose Imperative für Best-of-Breed-Best-Practices. Phosfluoreszenz erleichtert parallele Anwendungen mit einzigartigen Imperativen. Plagiieren Sie proaktiv funktionalisierte Ergebnisse über kostengünstige Lösungen. Nutzen Sie kollaborativ webfähige Infomediaries anstelle von diversen Testverfahren.
                     </Disclosure.Panel>
                   </>
                 )}
@@ -155,7 +150,7 @@ const Faq = () => {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex justify-between w-full px-4 py-3 text-base font-medium text-left text-gray-600 focus:text-emerald-500 bg-gray-50 hover:bg-emerald-50 rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                      <span>What is a affliates product configuration?</span>
+                      <span>Was ist eine Affiliate-Produktkonfiguration?</span>
                       <ChevronUpIcon
                         className={`${
                           open ? 'transform rotate-180 text-emerald-500' : ''
@@ -163,12 +158,9 @@ const Faq = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-3 pb-8 text-sm leading-7 text-gray-500">
-                      Yes. You can cancel your subscription anytime. Your
-                      subscription will continue to be active until the end of
-                      your current term (month or year) but it will not
-                      auto-renew. Unless you delete your account manually, your
-                      account and all data will be deleted 60 days from the day
-                      your subscription becomes inactive.
+                    Ja. Sie können Ihr Abonnement jederzeit kündigen. Dein
+                       Das Abonnement bleibt bis zum Ende des aktiv Ihre aktuelle Amtszeit (Monat oder Jahr), dies wird jedoch nicht der Fall sein Automatische Verlängerung. Sofern Sie Ihr Konto nicht manuell löschen, ist Ihr Konto und alle Daten werden 60 Tage nach dem Tag gelöscht
+                       Ihr Abonnement wird inaktiv.
                     </Disclosure.Panel>
                   </>
                 )}
@@ -179,8 +171,7 @@ const Faq = () => {
                   <>
                     <Disclosure.Button className="flex justify-between w-full px-4 py-3 text-base font-medium text-left text-gray-600 focus:text-emerald-500 bg-gray-50 hover:bg-emerald-50 rounded-lg focus:outline-none">
                       <span>
-                        What is fleet management and how is it different from
-                        dynamic scaling?
+                      Was ist Flottenmanagement und wie unterscheidet es sich von dynamischer Skalierung?
                       </span>
                       <ChevronUpIcon
                         className={`${
@@ -189,13 +180,8 @@ const Faq = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-3 pb-8 text-sm leading-7 text-gray-500">
-                      Distinctively initiate error-free channels with highly
-                      efficient ROI. Intrinsicly envisioneer world-class data
-                      via best-of-breed best practices. Efficiently enable
-                      empowered e-tailers after cross-unit services. Uniquely
-                      expedite seamless e-tailers via cooperative interfaces.
-                      Monotonectally myocardinate customer directed
-                      meta-services whereas error-free scenarios.
+                    Unverwechselbar fehlerfreie Kanäle mit hoch initiieren
+                       effizienter ROI. Stellen Sie sich von Natur aus Weltklasse-Daten vor über Best-of-Breed-Best-Practices. Effizient aktivieren befähigte E-Tailer nach bereichsübergreifenden Dienstleistungen. Einzigartig beschleunigen nahtlose E-Tailer über kooperative Schnittstellen. Monotonektal myokardinierter Kunde gerichtet Meta-Dienste, während fehlerfreie Szenarien.
                     </Disclosure.Panel>
                   </>
                 )}
