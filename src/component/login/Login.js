@@ -1,13 +1,18 @@
 import { FiLock, FiMail } from 'react-icons/fi';
 
 //internal  import
-import Error from '@component/form/Error';
-import useLoginSubmit from '@hooks/useLoginSubmit';
-import InputArea from '@component/form/InputArea';
+// import Error from '@component/form/Error';
+// import useLoginSubmit from '@hooks/useLoginSubmit';
+// import InputArea from '@component/form/InputArea';
 
-const Login = ({ setShowResetPassword, setModalOpen }) => {
-  const { handleSubmit, submitHandler, register, errors, loading } =
-    useLoginSubmit(setModalOpen);
+import React from 'react';
+import ReactDOM from 'react-dom';
+import GoogleOneTapLogin from 'react-google-one-tap-login';
+
+ReactDOM.render(
+  <GoogleOneTapLogin onError={(error) => console.log(error} onSuccess={(response) => console.log(response} googleAccountConfigs={{ client_id: 162887562432-b05sed3sm3ajh9h055hp1n5fi667g4i1.apps.googleusercontent.com }} />,
+  document.getElementById('root')
+);
 
   return (
     <>
