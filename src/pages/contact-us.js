@@ -69,7 +69,7 @@ const ContactUs = () => {
               >
                 <div className="mb-12">
                   <h3 className="text-xl md:text-2xl lg:text-3xl font-semibold font-serif mb-3">
-                    For any suppoort just send your query
+                    For any support just send your query
                   </h3>
                   <p className="text-base opacity-90 leading-7">
                     Please login to be able to send questions and get in touch with us!
