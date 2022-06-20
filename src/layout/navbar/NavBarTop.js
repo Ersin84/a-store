@@ -42,16 +42,6 @@ const NavBarTop = () => {
                 info.wromo@gmail.com
               </a>
             </span>
-//            <!-- Global site tag (gtag.js) - Google Analytics -->
-//            <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5C7KBJ229"></script>
-//            <script>
-//             window.dataLayer = window.dataLayer || [];
-//             function gtag(){dataLayer.push(arguments);}
-//             gtag('js', new Date());
-//
-//             gtag('config', 'G-J5C7KBJ229');
-//             </script>
-
             <div className="lg:text-right flex items-center">
               <Link href="/about-us">
                 <a className="font-medium hover:text-emerald-600">About Us</a>
