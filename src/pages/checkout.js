@@ -20,7 +20,6 @@ import InputShipping from '@component/form/InputShipping';
 import InputPayment from '@component/form/InputPayment';
 import useCheckoutSubmit from '@hooks/useCheckoutSubmit';
 
-
 const Checkout = () => {
   const {
     handleSubmit,
@@ -93,10 +92,10 @@ const Checkout = () => {
                       <div className="col-span-6 sm:col-span-3">
                         <InputArea
                           register={register}
-                          label="Telefonnummer"
-                          name="Kontakt"
+                          label="Phone number"
+                          name="contact"
                           type="tel"
-                          placeholder="+43-65302956"
+                          placeholder="+062-6532956"
                         />
 
                         <Error errorName={errors.contact} />
@@ -106,17 +105,17 @@ const Checkout = () => {
 
                   <div className="form-group mt-12">
                     <h2 className="font-semibold font-serif text-base text-gray-700 pb-3">
-                      02. Versanddetails
+                      02. Shipping Details
                     </h2>
 
                     <div className="grid grid-cols-6 gap-6 mb-8">
                       <div className="col-span-6">
                         <InputArea
                           register={register}
-                          label="Adresse"
+                          label="Street address"
                           name="address"
                           type="text"
-                          placeholder="Invalidenstraße 13, 1030 Wien"
+                          placeholder="123 Boulevard Rd, Beverley Hills"
                         />
                         <Error errorName={errors.address} />
                       </div>
@@ -138,7 +137,7 @@ const Checkout = () => {
                           label="Country"
                           name="country"
                           type="text"
-                          placeholder="Österreich"
+                          placeholder="United States"
                         />
                         <Error errorName={errors.country} />
                       </div>
@@ -146,10 +145,10 @@ const Checkout = () => {
                       <div className="col-span-6 sm:col-span-3 lg:col-span-2">
                         <InputArea
                           register={register}
-                          label="PLZ / Post"
-                          name="Postleitzahl"
+                          label="ZIP / Postal"
+                          name="zipCode"
                           type="text"
-                          placeholder="02345"
+                          placeholder="2345"
                         />
                         <Error errorName={errors.zipCode} />
                       </div>
@@ -161,9 +160,9 @@ const Checkout = () => {
                         <InputShipping
                           handleShippingCost={handleShippingCost}
                           register={register}
-                          value="Kurierlieferung"
-                          time="Lieblingszeit"
-                          cost={5}
+                          value="FedEx"
+                          time="Today"
+                          cost={60}
                         />
                         <Error errorName={errors.shippingOption} />
                       </div>
@@ -172,9 +171,9 @@ const Checkout = () => {
                         <InputShipping
                           handleShippingCost={handleShippingCost}
                           register={register}
-                          value="Kurierlieferung"
-                          time="Sofort"
-                          cost={5}
+                          value="UPS"
+                          time="7 Days"
+                          cost={20}
                         />
                         <Error errorName={errors.shippingOption} />
                       </div>
@@ -183,7 +182,7 @@ const Checkout = () => {
 
                   <div className="form-group mt-12">
                     <h2 className="font-semibold font-serif text-base text-gray-700 pb-3">
-                      03. Zahlungsdetails
+                      03. Payment Details
                     </h2>
                     {showCard && (
                       <div className="mb-3">
@@ -196,7 +195,7 @@ const Checkout = () => {
                         <InputPayment
                           setShowCard={setShowCard}
                           register={register}
-                          name="Barzahlung bei Lieferung"
+                          name="Cash On Delivery"
                           value="COD"
                           Icon={IoWalletSharp}
                         />
@@ -207,7 +206,7 @@ const Checkout = () => {
                         <InputPayment
                           setShowCard={setShowCard}
                           register={register}
-                          name="Kreditkarte"
+                          name="Credit Card"
                           value="Card"
                           Icon={ImCreditCard}
                         />
@@ -215,7 +214,6 @@ const Checkout = () => {
                       </div>
                     </div>
                   </div>
-                  
 
                   <div className="grid grid-cols-6 gap-4 lg:gap-6 mt-10">
                     <div className="col-span-6 sm:col-span-3">
@@ -224,7 +222,7 @@ const Checkout = () => {
                           <span className="text-xl mr-2">
                             <IoReturnUpBackOutline />
                           </span>
-                          Mit dem Einkaufen fortfahren
+                          Continue Shopping
                         </a>
                       </Link>
                     </div>
@@ -234,7 +232,7 @@ const Checkout = () => {
                         enabled={isEmpty || !stripe || isCheckoutSubmit}
                         className="bg-emerald-500 hover:bg-emerald-600 border border-emerald-500 transition-all rounded py-3 text-center text-sm font-serif font-medium text-white flex justify-center w-full"
                       >
-                        Bestellung bestätigen{' '}
+                        Confirm Order{' '}
                         <span className="text-xl ml-2">
                           {' '}
                           <IoArrowForward />
@@ -249,7 +247,7 @@ const Checkout = () => {
             <div className="md:w-full lg:w-2/5 lg:ml-10 xl:ml-14 md:ml-6 flex flex-col h-full md:sticky lg:sticky top-28 md:order-2 lg:order-2">
               <div className="border p-5 lg:px-8 lg:py-8 rounded-lg bg-white order-1 sm:order-2">
                 <h2 className="font-semibold font-serif text-lg pb-4">
-                  Bestellübersicht
+                  Order Summary
                 </h2>
 
                 <div className="overflow-y-scroll flex-grow scrollbar-hide w-full max-h-64 bg-gray-50 block">
@@ -263,7 +261,7 @@ const Checkout = () => {
                         <IoBagHandle />
                       </span>
                       <h2 className="font-medium font-serif text-sm pt-2 text-gray-600">
-                       Noch kein Artikel hinzugefügt!
+                        No Item Added Yet!
                       </h2>
                     </div>
                   )}
@@ -274,7 +272,7 @@ const Checkout = () => {
                     {couponInfo.couponCode ? (
                       <span className="bg-emerald-50 px-4 py-3 leading-tight w-full rounded-md flex justify-between">
                         {' '}
-                        <p className="text-emerald-600">Gutschein angewendet </p>{' '}
+                        <p className="text-emerald-600">Coupon Applied </p>{' '}
                         <span className="text-red-500 text-right">
                           {couponInfo.couponCode}
                         </span>
@@ -291,36 +289,36 @@ const Checkout = () => {
                           onClick={handleCouponCode}
                           className="md:text-sm leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold text-center justify-center border border-gray-200 rounded-md placeholder-white focus-visible:outline-none focus:outline-none px-5 md:px-6 lg:px-8 py-3 md:py-3.5 lg:py-3 mt-3 sm:mt-0 sm:ml-3 md:mt-0 md:ml-3 lg:mt-0 lg:ml-3 hover:text-white hover:bg-emerald-500 h-12 text-sm lg:text-base w-full sm:w-auto"
                         >
-                          Betätigen
+                          Apply
                         </button>
                       </div>
                     )}
                   </form>
                 </div>
                 <div className="flex items-center py-2 text-sm w-full font-semibold text-gray-500 last:border-b-0 last:text-base last:pb-0">
-                   Zwischensumme
+                  Subtotal
                   <span className="ml-auto flex-shrink-0 text-gray-800 font-bold">
-                    €{cartTotal.toFixed(2)}
+                    ${cartTotal.toFixed(2)}
                   </span>
                 </div>
                 <div className="flex items-center py-2 text-sm w-full font-semibold text-gray-500 last:border-b-0 last:text-base last:pb-0">
-                   Versandkosten
+                  Shipping Cost
                   <span className="ml-auto flex-shrink-0 text-gray-800 font-bold">
-                    €{shippingCost.toFixed(2)}
+                    ${shippingCost.toFixed(2)}
                   </span>
                 </div>
                 <div className="flex items-center py-2 text-sm w-full font-semibold text-gray-500 last:border-b-0 last:text-base last:pb-0">
-                   Rabatt
+                  Discount
                   <span className="ml-auto flex-shrink-0 font-bold text-orange-400">
-                    €{discountAmount.toFixed(2)}
+                    ${discountAmount.toFixed(2)}
                   </span>
                 </div>
                 <div className="border-t mt-4">
                   <div className="flex items-center font-bold font-serif justify-between pt-5 text-sm uppercase">
-                     Gesamtkosten
+                    Total cost
                     <span className="font-serif font-extrabold text-lg">
                       {' '}
-                      €{Math.round(total)}.00
+                      ${Math.round(total)}.00
                     </span>
                   </div>
                 </div>

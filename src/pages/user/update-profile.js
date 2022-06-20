@@ -113,7 +113,7 @@ const UpdateProfile = () => {
                           label="Your Address"
                           name="address"
                           type="text"
-                          placeholder="Deine Adresse"
+                          placeholder="Your Address"
                         />
                         <Error errorName={errors.address} />
                       </div>
@@ -121,10 +121,10 @@ const UpdateProfile = () => {
                       <div className="col-span-6 sm:col-span-3">
                         <InputArea
                           register={register}
-                          label="Mobiltelefon"
+                          label="Phone/Mobile"
                           name="phone"
                           type="tel"
-                          placeholder="Deine Telefonnummer"
+                          placeholder="Your Mobile Number"
                         />
                         <Error errorName={errors.phone} />
                       </div>
@@ -132,10 +132,10 @@ const UpdateProfile = () => {
                       <div className="col-span-6 sm:col-span-3">
                         <InputArea
                           register={register}
-                          label="E-Mail-Addresse"
+                          label="Email Address"
                           name="email"
                           type="email"
-                          placeholder="Deine E-Mail"
+                          placeholder="Your Email"
                         />
                         <Error errorName={errors.email} />
                       </div>
@@ -146,7 +146,7 @@ const UpdateProfile = () => {
                         type="submit"
                         className="md:text-sm leading-5 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-medium text-center justify-center border-0 border-transparent rounded-md placeholder-white focus-visible:outline-none focus:outline-none bg-emerald-500 text-white px-5 md:px-6 lg:px-8 py-2 md:py-3 lg:py-3 hover:text-white hover:bg-emerald-600 h-12 mt-1 text-sm lg:text-sm w-full sm:w-auto"
                       >
-                        Profil aktualisieren
+                        Update Profile
                       </button>
                     </div>
                   </div>

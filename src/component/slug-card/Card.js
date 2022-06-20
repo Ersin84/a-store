@@ -17,8 +17,8 @@ const Card = () => {
           <FiTruck />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Kostenloser Versand gilt für alle Bestellungen über{' '}
-          <span className="font-semibold">€15</span>
+          Free shipping apply to all orders over{' '}
+          <span className="font-semibold">$25</span>
         </p>
       </li>
       <li className="flex items-center py-3">
@@ -26,7 +26,7 @@ const Card = () => {
           <FiHome />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Lieferung nach Hause innerhalb <span className="font-semibold">30 Min</span>
+          Home Delivery within <span className="font-semibold">1 to 12 Day</span>
         </p>
       </li>
       <li className="flex items-center py-3">
@@ -34,7 +34,7 @@ const Card = () => {
           <FiDollarSign />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Zahlungen garantiert durch PayPal, Kreditkarte, G Pay, Apple Pay
+          Payments guaranteed by PayPal, Credit Card, G Pay, Apple Pay
         </p>
       </li>
       <li className="flex items-center py-3">
@@ -42,8 +42,8 @@ const Card = () => {
           <FiRepeat />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          <span className="font-semibold">14</span> Tage Geld zurück
-           Garantie
+          <span className="font-semibold">14</span> Days returns money back
+          guarantee
         </p>
       </li>
 
@@ -52,7 +52,7 @@ const Card = () => {
           <FiShieldOff />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Garantie auf diesen Artikel nicht verfügbar
+          Warranty not available this item
         </p>
       </li>
       <li className="flex items-center py-3">
@@ -60,7 +60,7 @@ const Card = () => {
           <FiSun />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Garantiert 100 % - Zufriedenheitsgarantien
+          Guaranteed 100% - Satisfaction guarantees
         </p>
       </li>
 
@@ -69,7 +69,7 @@ const Card = () => {
           <FiMapPin />
         </span>
         <p className="font-sans leading-5 text-sm text-gray-500">
-          Lieferung von unserem Punkt Wien Österreich
+          Delivery from our point USA, Austria, Germany or China
         </p>
       </li>
     </ul>

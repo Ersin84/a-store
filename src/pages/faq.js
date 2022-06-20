@@ -22,7 +22,7 @@ const Faq = () => {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex justify-between w-full px-4 py-3 text-base font-medium text-left text-gray-600 focus:text-emerald-500 bg-gray-50 hover:bg-emerald-50 rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                      <span>Wie funktioniert das Supermarket Wromo ?</span>
+                      <span>How does the Wromo Studio work?</span>
                       <ChevronUpIcon
                         className={`${
                           open ? 'transform rotate-180 text-emerald-500' : ''
@@ -53,8 +53,13 @@ const Faq = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-3 pb-8 text-sm leading-7 text-gray-500">
-                    Tausende Artikel zu dir geliefert: Markt ist Wiens schneller Online-Supermarkt. Hier beststellst du Lebensmittel, frisches Obst & Gemüse, süße & pikante Snacks, Getränke sowie alles für den Haushalt und freust dich über eine Lieferung innerhalb Wiens.
-                    Entdecken Sie jetzt das laufende Angebot und bestellen Sie bequem online!
+                      Distinctively initiate error-free channels with highly
+                      efficient ROI. Intrinsicly envisioneer world-class data
+                      via best-of-breed best practices. Efficiently enable
+                      empowered e-tailers after cross-unit services. Uniquely
+                      expedite seamless e-tailers via cooperative interfaces.
+                      Monotonectally myocardinate customer directed
+                      meta-services whereas error-free scenarios.
                     </Disclosure.Panel>
                   </>
                 )}
@@ -64,7 +69,7 @@ const Faq = () => {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex justify-between w-full px-4 py-3 text-base font-medium text-left text-gray-600 focus:text-emerald-500 bg-gray-50 hover:bg-emerald-50 rounded-lg focus:outline-none">
-                      <span>Welche Zahlungsmethode Sie akzeptieren sollten?</span>
+                      <span>Whice payment method you should accept?</span>
                       <ChevronUpIcon
                         className={`${
                           open ? 'transform rotate-180 text-emerald-500' : ''
@@ -95,12 +100,12 @@ const Faq = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-3 pb-8 text-sm leading-7 text-gray-500">
-                       Beeinflussen Sie kontinuierlich nahtlose Imperative für Best-of-Breed
-                       empfohlene Vorgehensweise. Parallele Phosfluoreszenz erleichtern
-                       Anwendungen mit einzigartigen Imperativen. Proaktiv
-                       plagiieren funktionalisierte Ergebnisse über preiswert
-                       Lösungen. Machen Sie sich gemeinsam webfähig
-                       Infomediaries statt diverser Testverfahren.
+                      Continually impact seamless imperatives for best-of-breed
+                      best practices. Phosfluorescently facilitate parallel
+                      applications with unique imperatives. Proactively
+                      plagiarize functionalized deliverables via inexpensive
+                      solutions. Collaboratively embrace web-enabled
+                      infomediaries rather than diverse testing procedures.
                     </Disclosure.Panel>
                   </>
                 )}
@@ -141,7 +146,12 @@ const Faq = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-3 pb-8 text-sm leading-7 text-gray-500">
-                     Beeinflussen Sie kontinuierlich nahtlose Imperative für Best-of-Breed-Best-Practices. Phosfluoreszenz erleichtert parallele Anwendungen mit einzigartigen Imperativen. Plagiieren Sie proaktiv funktionalisierte Ergebnisse über kostengünstige Lösungen. Nutzen Sie kollaborativ webfähige Infomediaries anstelle von diversen Testverfahren.
+                      Continually impact seamless imperatives for best-of-breed
+                      best practices. Phosfluorescently facilitate parallel
+                      applications with unique imperatives. Proactively
+                      plagiarize functionalized deliverables via inexpensive
+                      solutions. Collaboratively embrace web-enabled
+                      infomediaries rather than diverse testing procedures.
                     </Disclosure.Panel>
                   </>
                 )}
@@ -150,7 +160,7 @@ const Faq = () => {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex justify-between w-full px-4 py-3 text-base font-medium text-left text-gray-600 focus:text-emerald-500 bg-gray-50 hover:bg-emerald-50 rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                      <span>Was ist eine Affiliate-Produktkonfiguration?</span>
+                      <span>What is a affliates product configuration?</span>
                       <ChevronUpIcon
                         className={`${
                           open ? 'transform rotate-180 text-emerald-500' : ''
@@ -158,9 +168,12 @@ const Faq = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-3 pb-8 text-sm leading-7 text-gray-500">
-                    Ja. Sie können Ihr Abonnement jederzeit kündigen. Dein
-                       Das Abonnement bleibt bis zum Ende des aktiv Ihre aktuelle Amtszeit (Monat oder Jahr), dies wird jedoch nicht der Fall sein Automatische Verlängerung. Sofern Sie Ihr Konto nicht manuell löschen, ist Ihr Konto und alle Daten werden 60 Tage nach dem Tag gelöscht
-                       Ihr Abonnement wird inaktiv.
+                      Yes. You can cancel your subscription anytime. Your
+                      subscription will continue to be active until the end of
+                      your current term (month or year) but it will not
+                      auto-renew. Unless you delete your account manually, your
+                      account and all data will be deleted 60 days from the day
+                      your subscription becomes inactive.
                     </Disclosure.Panel>
                   </>
                 )}
@@ -171,7 +184,8 @@ const Faq = () => {
                   <>
                     <Disclosure.Button className="flex justify-between w-full px-4 py-3 text-base font-medium text-left text-gray-600 focus:text-emerald-500 bg-gray-50 hover:bg-emerald-50 rounded-lg focus:outline-none">
                       <span>
-                      Was ist Flottenmanagement und wie unterscheidet es sich von dynamischer Skalierung?
+                        What is fleet management and how is it different from
+                        dynamic scaling?
                       </span>
                       <ChevronUpIcon
                         className={`${
@@ -180,8 +194,13 @@ const Faq = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-3 pb-8 text-sm leading-7 text-gray-500">
-                    Unverwechselbar fehlerfreie Kanäle mit hoch initiieren
-                       effizienter ROI. Stellen Sie sich von Natur aus Weltklasse-Daten vor über Best-of-Breed-Best-Practices. Effizient aktivieren befähigte E-Tailer nach bereichsübergreifenden Dienstleistungen. Einzigartig beschleunigen nahtlose E-Tailer über kooperative Schnittstellen. Monotonektal myokardinierter Kunde gerichtet Meta-Dienste, während fehlerfreie Szenarien.
+                      Distinctively initiate error-free channels with highly
+                      efficient ROI. Intrinsicly envisioneer world-class data
+                      via best-of-breed best practices. Efficiently enable
+                      empowered e-tailers after cross-unit services. Uniquely
+                      expedite seamless e-tailers via cooperative interfaces.
+                      Monotonectally myocardinate customer directed
+                      meta-services whereas error-free scenarios.
                     </Disclosure.Panel>
                   </>
                 )}

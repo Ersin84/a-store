@@ -12,18 +12,18 @@ const CardTwo = () => {
               Products and Quick Delivery
             </span>
             <h2 className="font-serif text-lg lg:text-2xl font-bold mb-1">
-              Schnelle Lieferung nach{' '}
-              <span className="text-emerald-500">deine Wohnort Adresse</span>
+              Quick Delivery to{' '}
+              <span className="text-emerald-500">Your Home</span>
             </h2>
             <p className="text-sm font-sans leading-6">
-              Es gibt viele Produkte, die Sie in unserem Shop finden. Wählen Sie täglich Ihre aus
-              notwendiges Produkt aus unserem Supermarkt und holen Sie sich etwas Besonderes
-              Angebot. Sehen Sie sich hier unsere neuesten reduzierten Produkte an und erhalten Sie eine
-              Sonderrabatt.
+              There are many products you will find our shop, Choose your daily
+              necessary product from our WromoStudio shop and get some special
+              offer. See Our latest discounted products from here and get a
+              special discount.
             </p>
             <Link href="#downloadApp">
               <a className="lg:w-1/4 text-xs font-serif font-medium inline-block mt-5 px-8 py-3 bg-emerald-500 text-center text-white rounded-full hover:text-white hover:bg-emerald-600">
-               Lade App herunter
+                Download App
               </a>
             </Link>
           </div>

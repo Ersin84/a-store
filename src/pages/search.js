@@ -35,7 +35,7 @@ const Search = ({ products }) => {
                     height={380}
                   />
                   <h2 className="text-lg md:text-xl lg:text-2xl xl:text-2xl text-center mt-2 font-medium font-serif text-gray-600">
-                    Entschuldigung, wir können dieses Produkt nicht finden!
+                    Sorry, we can not find this product!
                   </h2>
                 </div>
               ) : (
@@ -43,7 +43,7 @@ const Search = ({ products }) => {
                   <h6 className="text-sm font-serif">
                     Total{' '}
                     <span className="font-bold">{productData.length}</span>{' '}
-                    gefundene Objekte
+                    items Found
                   </h6>
                   <span className="text-sm font-serif">
                     <select
@@ -51,13 +51,13 @@ const Search = ({ products }) => {
                       className="py-0 text-sm font-serif font-medium block w-full rounded border-0 bg-white pr-10 cursor-pointer focus:ring-0"
                     >
                       <option className="px-3" value="All" defaultValue hidden>
-                        Nach Preis sortieren
+                        Sort By Price
                       </option>
                       <option className="px-3" value="Low">
-                        Aufsteigend
+                        Low to High
                       </option>
                       <option className="px-3" value="High">
-                        Absteigend
+                        High to Low
                       </option>
                     </select>
                   </span>
@@ -74,7 +74,7 @@ const Search = ({ products }) => {
                   onClick={() => setVisibleProduct((pre) => pre + 10)}
                   className="w-auto mx-auto md:text-sm leading-5 flex items-center transition ease-in-out duration-300 font-medium text-center justify-center border-0 border-transparent rounded-md focus-visible:outline-none focus:outline-none bg-indigo-100 text-gray-700 px-5 md:px-6 lg:px-8 py-2 md:py-3 lg:py-3 hover:text-white hover:bg-emerald-600 h-12 mt-6 text-sm lg:text-sm"
                 >
-                  Mehr laden
+                  Load More
                 </button>
               )}
             </div>

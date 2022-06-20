@@ -41,10 +41,10 @@ const Home = ({ products, popularProducts, discountProducts }) => {
               <div className="mb-10 flex justify-center">
                 <div className="text-center w-full lg:w-2/5">
                   <h2 className="text-xl lg:text-2xl mb-2 font-serif font-semibold">
-                    Beliebte Kategorien
+                    Featured Categories
                   </h2>
                   <p className="text-base font-sans text-gray-600 leading-6">
-                    Wählen Sie aus diesen Feature-Kategorien Ihre benötigten Produkte aus.
+                    Choose your necessary products from this feature categories.
                   </p>
                 </div>
               </div>
@@ -57,12 +57,12 @@ const Home = ({ products, popularProducts, discountProducts }) => {
             <div className="mb-10 flex justify-center">
               <div className="text-center w-full lg:w-2/5">
                 <h2 className="text-xl lg:text-2xl mb-2 font-serif font-semibold">
-                  Beliebte Produkte für den täglichen Einkauf
+                  Popular Products for Daily Shopping
                 </h2>
                 <p className="text-base font-sans text-gray-600 leading-6">
-                  Sehen Sie sich diese Woche alle unsere beliebten Produkte an. Sie können Ihre wählen
-                  Produkte des täglichen Bedarfs aus dieser Liste und erhalten Sie ein Sonderangebot
-                  mit kostenlosem Versand.
+                  See all our popular products in this week. You can choose your
+                  daily needs products from this list and get some special offer
+                  with free shipping.
                 </p>
               </div>
             </div>
@@ -94,11 +94,11 @@ const Home = ({ products, popularProducts, discountProducts }) => {
             <div className="mb-10 flex justify-center">
               <div className="text-center w-full lg:w-2/5">
                 <h2 className="text-xl lg:text-2xl mb-2 font-serif font-semibold">
-                  Neueste reduzierte Produkte
+                  Latest Discounted Products
                 </h2>
                 <p className="text-base font-sans text-gray-600 leading-6">
-                  Sehen Sie sich unsere neuesten reduzierten Produkte unten an. Wählen Sie Ihre tägliche
-                   Bedarf von hier und erhalten Sie einen Sonderrabatt mit kostenlosem Versand.
+                  See Our latest discounted products below. Choose your daily
+                  needs from here and get a special discount with free shipping.
                 </p>
               </div>
             </div>
@@ -127,8 +127,8 @@ export const getStaticProps = async () => {
   return {
     props: {
       products: products,
-      discountProducts: discountProducts,
       popularProducts: popularProducts.slice(0, 50),
+      discountProducts: discountProducts,
     },
     revalidate: 60,
   };

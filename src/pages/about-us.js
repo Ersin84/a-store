@@ -15,7 +15,7 @@ const AboutUs = () => {
           <div className="grid grid-flow-row lg:grid-cols-2 gap-4 lg:gap-16 items-center">
             <div className="">
               <h3 className="text-xl lg:text-3xl mb-2 font-serif font-semibold">
-                Willkommen in unserem Supermarket Wromo
+                Welcome to our Next Wromo Studio
               </h3>
               <div className="mt-3 text-base opacity-90 leading-7">
                 <p>
@@ -119,8 +119,9 @@ const AboutUs = () => {
                   Our Founder
                 </h3>
                 <p className="mt-2 md:mt-3 font-normal block text-base">
-                Wir sind unparteiisch und unabhängig und schaffen jeden Tag etwas unverwechselbares, erstklassiges Backend-Reintermediate-Angebot
-                   Programme.
+                  We’re impartial and independent, and every day we create
+                  distinctive, world-class reintermediate backend supply
+                  programmes.
                 </p>
               </div>
             </div>
@@ -138,7 +139,7 @@ const AboutUs = () => {
                     Iulian Ghepes
                   </h5>
                   <span className="opacity-75 text-sm">
-                    Mitbegründer & Geschäftsführer
+                    Co-founder & Executive
                   </span>
                 </div>
               </div>
@@ -154,7 +155,7 @@ const AboutUs = () => {
                   <h5 className="text-lg font-semibold font-serif">
                     Simona Grwar
                   </h5>
-                  <span className="opacity-75 text-sm">Geschäftsführer</span>
+                  <span className="opacity-75 text-sm">Chief Executive</span>
                 </div>
               </div>
               <div className="max-w-sm">
@@ -170,7 +171,7 @@ const AboutUs = () => {
                     Ersin Mower
                   </h5>
                   <span className="opacity-75 text-sm">
-                    Mitbegründer, Vorsitzender
+                    Co-founder, Chairman
                   </span>
                 </div>
               </div>
@@ -203,7 +204,7 @@ const AboutUs = () => {
                   <h5 className="text-lg font-semibold font-serif">
                     Even Hama
                   </h5>
-                  <span className="opacity-75 text-sm">Personalreferent</span>
+                  <span className="opacity-75 text-sm">HR Officer</span>
                 </div>
               </div>
               <div className="max-w-sm">
@@ -218,7 +219,7 @@ const AboutUs = () => {
                   <h5 className="text-lg font-semibold font-serif">
                     Ali Tofees
                   </h5>
-                  <span className="opacity-75 text-sm">Leitender Entwickler</span>
+                  <span className="opacity-75 text-sm">Lead Developer</span>
                 </div>
               </div>
             </div>

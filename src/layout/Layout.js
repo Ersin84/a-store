@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { ToastContainer } from 'react-toastify';
+
 //internal import
 import Navbar from '@layout/navbar/Navbar';
 import Footer from '@layout/footer/Footer';
@@ -16,12 +17,11 @@ const Layout = ({ title, description, children }) => {
         <Head>
           <title>
             {title
-              ? `Lieferdienst | ${title}`
-              : ' Wien Online einfach Bestellen'}
+              ? `WromoStudio | ${title}`
+              : 'WromoStudio - Next Studio Wromo Marketplace'}
           </title>
           {description && <meta name="description" content={description} />}
           <link ref="icon" href="/favicon.png" />
-
         </Head>
         <NavBarTop />
         <Navbar />

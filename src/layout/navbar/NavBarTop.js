@@ -34,7 +34,7 @@ const NavBarTop = () => {
           <div className="text-gray-700 py-2 font-sans text-xs font-medium border-b flex justify-between items-center">
             <span className="flex items-center">
               <FiPhoneCall className="mr-2" />
-              Wir sind rund um die Uhr für Sie da. Brauchen Sie Hilfe? Schreiben Sie uns eine E-Mail:{' '}
+              We are available 24/7, Need help? Email Us:{' '}
               <a
                 href="mailto:info.wromo@gmail.com"
                 className="font-bold text-emerald-500 ml-1"
@@ -42,6 +42,7 @@ const NavBarTop = () => {
                 info.wromo@gmail.com
               </a>
             </span>
+
             <div className="lg:text-right flex items-center">
               <Link href="/about-us">
                 <a className="font-medium hover:text-emerald-600">About Us</a>

@@ -1,7 +1,7 @@
 {
-  "short_name": "Online Wiens Lieferservice",
-  "name": "Online Lieferservice in Wien einfach Bestellen",
-  "description": "Lieferservice einfach Bestellen 🚴 für Wien",
+  "short_name": "WromoStudio - Store",
+  "name": "WromoStudio - Next Studio Wromo Marketplace",
+  "description": "Next Studio Wromo Marketplace",
   "icons": [
     {
       "src": "/icon-192x192.png",

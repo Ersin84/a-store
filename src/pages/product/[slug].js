@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { FiChevronRight, FiMinus, FiPlus } from 'react-icons/fi';
+import { FiChevronRight } from 'react-icons/fi';
 import {
   FacebookIcon,
   FacebookShareButton,
@@ -28,7 +28,7 @@ import ProductCard from '@component/product/ProductCard';
 
 const ProductScreen = ({ product, relatedProduct }) => {
   const router = useRouter();
-  const { handleAddItem, setItem, item } = useAddToCart();
+  const { handleAddItem } = useAddToCart();
 
   //comment this when using getServerSideProps
   if (router.isFallback) {
@@ -107,51 +107,12 @@ const ProductScreen = ({ product, relatedProduct }) => {
                       <p className="text-sm leading-6 text-gray-500 md:leading-7">
                         {product.description}
                       </p>
-
-                      <div className="flex items-center mt-4">
-                        <div className="flex items-center justify-between space-s-3 sm:space-s-4 w-full">
-                          <div className="group flex items-center justify-between rounded-md overflow-hidden flex-shrink-0 border h-11 md:h-12 border-gray-300">
-                            <button
-                              onClick={() => setItem(item - 1)}
-                              disabled={item === 1}
-                              className="flex items-center justify-center flex-shrink-0 h-full transition ease-in-out duration-300 focus:outline-none w-8 md:w-12 text-heading border-e border-gray-300 hover:text-gray-500"
-                            >
-                              <span className="text-dark text-base">
-                                <FiMinus />
-                              </span>
-                            </button>
-                            <p className="font-semibold flex items-center justify-center h-full  transition-colors duration-250 ease-in-out cursor-default flex-shrink-0 text-base text-heading w-8  md:w-20 xl:w-24">
-                              {item}
-                            </p>
-                            <button
-                              onClick={() => setItem(item + 1)}
-                              disabled={
-                                product.quantity < item ||
-                                product.quantity === item
-                              }
-                              className="flex items-center justify-center h-full flex-shrink-0 transition ease-in-out duration-300 focus:outline-none w-8 md:w-12 text-heading border-s border-gray-300 hover:text-gray-500"
-                            >
-                              <span className="text-dark text-base">
-                                <FiPlus />
-                              </span>
-                            </button>
-                          </div>
-                          <button
-                            onClick={() => handleAddItem(product)}
-                            disabled={product.quantity < 1}
-                            className="text-sm leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold font-serif text-center justify-center border-0 border-transparent rounded-md focus-visible:outline-none focus:outline-none text-white px-4 ml-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 hover:text-white bg-emerald-500 hover:bg-emerald-600 w-full h-12"
-                          >
-                            Add To Cart
-                          </button>
-                        </div>
-                      </div>
-
-                      {/* <button
+                      <button
                         onClick={() => handleAddItem(product)}
                         className="leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold text-center justify-center border-0 border-transparent rounded-md placeholder-white focus-visible:outline-none focus:outline-none bg-emerald-500 text-white px-5 md:px-6 lg:px-8 py-3 md:py-3.5 lg:py-3 mt-6 hover:text-white hover:bg-emerald-600 h-12 text-sm lg:text-base w-full sm:w-auto"
                       >
                         Add to Cart
-                      </button> */}
+                      </button>
 
                       <div className="flex flex-col mt-4">
                         <span className="font-serif font-semibold py-1 text-sm d-block">
@@ -166,11 +127,11 @@ const ProductScreen = ({ product, relatedProduct }) => {
                       {/* social share */}
                       <div className="mt-8">
                         <h3 className="text-base font-semibold mb-1 font-serif">
-                          Teilen Sie Ihr soziales Netzwerk
+                          Share your social network
                         </h3>
                         <p className="font-sans text-sm text-gray-500">
-                        Teilen Sie dies, um viel Verkehr aus sozialen Netzwerken zu erhalten
-                           Produkt
+                          For get lots of traffic from social network share this
+                          product
                         </p>
                         <ul className="flex mt-4">
                           <li className="flex items-center text-center border border-gray-100 rounded-full hover:bg-emerald-500  mr-2 transition ease-in-out duration-500">
@@ -275,13 +236,8 @@ const ProductScreen = ({ product, relatedProduct }) => {
 
 export const getStaticProps = async (context) => {
   const { slug } = context.params;
-  // const product = await ProductServices.getProductBySlug(slug);
-  // const products = await ProductServices.getShowingProducts();
-
-  const [product, products] = await Promise.all([
-    ProductServices.getProductBySlug(slug),
-    ProductServices.getShowingProducts(),
-  ]);
+  const product = await ProductServices.getProductBySlug(slug);
+  const products = await ProductServices.getShowingProducts();
 
   let relatedProduct = [];
   if (slug) {

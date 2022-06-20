@@ -8,13 +8,13 @@ const Banner = () => {
         <div>
           <h1 className="font-serif text-xl">
             <span className="text-emerald-600 font-bold">
-              100% Beste Qualität
+              100% Best Quality
             </span>{' '}
              2022
           </h1>
 
           <p className="text-gray-500">
-            Sehen Sie sich hier unsere neuesten reduzierten Produkte an und erhalten Sie ein Sonderangebot
+            See Our latest discounted products from here and get a special
             <Link href="#discount">
               <a className="text-emerald-600 ml-1">discount product</a>
             </Link>

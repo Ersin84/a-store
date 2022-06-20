@@ -26,13 +26,13 @@ const RecentOrder = () => {
                 <IoBagHandle />
               </span>
               <h2 className="font-medium text-md my-4 text-gray-600">
-                Sie haben noch keine Bestellung!
+                You Have no order Yet!
               </h2>
             </div>
           ) : (
             <div className="flex flex-col">
               <h3 className="text-lg font-serif font-medium mb-5">
-                Letzte Bestellung
+                Recent Order
               </h3>
               <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="align-middle inline-block border border-gray-100 rounded-md min-w-full pb-2 sm:px-6 lg:px-8">
@@ -50,14 +50,14 @@ const RecentOrder = () => {
                             scope="col"
                             className="text-center text-xs font-serif font-semibold px-6 py-2 text-gray-700 uppercase tracking-wider"
                           >
-                            Bestellzeitpunkt
+                            OrderTime
                           </th>
 
                           <th
                             scope="col"
                             className="text-center text-xs font-serif font-semibold px-6 py-2 text-gray-700 uppercase tracking-wider"
                           >
-                            Methode
+                            Method
                           </th>
                           <th
                             scope="col"

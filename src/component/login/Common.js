@@ -6,8 +6,6 @@ import Login from '@component/login/Login';
 import Register from '@component/login/Register';
 import ResetPassword from '@component/login/ResetPassword';
 import useLoginSubmit from '@hooks/useLoginSubmit';
-import { useGoogleOneTapLogin } from 'react-google-one-tap-login';
-
 
 const Common = ({ setModalOpen }) => {
   const [showRegister, setShowRegister] = useState(false);
@@ -58,8 +56,6 @@ const Common = ({ setModalOpen }) => {
                 disabled={renderProps.disabled}
               >
                 <ImGoogle /> <span className="ml-2">Login With Google</span>
-                <script src="https://apis.google.com/js/platform.js" async defer></script>
-
               </button>
             )}
             onSuccess={handleGoogleSignIn}

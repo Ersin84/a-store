@@ -72,7 +72,7 @@ const Dashboard = ({ title, description, children }) => {
                   onClick={handleLogOut}
                   className="inline-flex items-center justify-between text-sm font-medium w-full hover:text-emerald-600"
                 >
-                  Ausloggen
+                  Logout
                 </button>
               </span>
             </div>

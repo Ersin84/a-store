@@ -69,11 +69,11 @@ const ContactUs = () => {
               >
                 <div className="mb-12">
                   <h3 className="text-xl md:text-2xl lg:text-3xl font-semibold font-serif mb-3">
-                    Für Unterstützung senden Sie einfach Ihre Anfrage
+                    For any suppoort just send your query
                   </h3>
                   <p className="text-base opacity-90 leading-7">
-                     Bitte melden Sie sich an, um Fragen senden und mit uns in Kontakt treten zu können!
-                     Und abonnieren Sie, wenn Sie über Wromo-Neuigkeiten, unser Team und den Community-Marktplatz auf dem Laufenden bleiben möchten.
+                    Please login to be able to send questions and get in touch with us!
+                    And subscribe if you want to stay up to date with Wromo news and our team and the Community Marketplace.
                   </p>
                 </div>
 
@@ -106,7 +106,7 @@ const ContactUs = () => {
                       label="Subject"
                       name="subject"
                       type="text"
-                      placeholder="Das Betreff"
+                      placeholder="Inter Your Subject"
                     />
                     <Error errorName={errors.subject} />
                   </div>
@@ -130,7 +130,7 @@ const ContactUs = () => {
                       data-variant="flat"
                       className="md:text-sm leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold text-center justify-center border-0 border-transparent rounded-md placeholder-white focus-visible:outline-none focus:outline-none bg-emerald-500 text-white px-5 md:px-6 lg:px-8 py-3 md:py-3.5 lg:py-3 hover:text-white hover:bg-emerald-600 h-12 mt-1 text-sm lg:text-base w-full sm:w-auto"
                     >
-                      Nachricht senden
+                      Send Message
                     </button>
                   </div>
                 </div>

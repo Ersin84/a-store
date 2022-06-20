@@ -16,9 +16,9 @@ const InputShipping = ({ register, value, time, cost, handleShippingCost }) => {
                   {value}
                 </h6>
                 <p className="text-xs text-gray-500 font-medium">
-                   Lieferung: {time}{' '}
+                  Delivery: {time}{' '}
                   <span className="font-medium text-gray-600">
-                   Kosten : €{cost}.00
+                    Cost : ${cost}.00
                   </span>
                 </p>
               </div>
@@ -26,7 +26,7 @@ const InputShipping = ({ register, value, time, cost, handleShippingCost }) => {
             <input
               onClick={() => handleShippingCost(cost)}
               {...register(`shippingOption`, {
-                required: `Versandoption ist erforderlich!`,
+                required: `Shipping Option is required!`,
               })}
               name="shippingOption"
               type="radio"

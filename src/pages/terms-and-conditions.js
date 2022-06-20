@@ -20,15 +20,29 @@ const TermAndConditions = () => {
             </h2>
             <div className="font-sans leading-7">
               <p>
-              Diese Allgemeinen Geschäftsbedingungen beschreiben die Regeln und Vorschriften für
-                 die Nutzung der Website von WromoStudio, zu finden unter
-                 https://wromo.com/. Durch den Zugriff auf diese Website gehen wir von Ihnen aus
-                 akzeptiere diese Bedingungen. Nicht weiter verwenden
-                 WromoStudio, wenn Sie nicht damit einverstanden sind, alle Bedingungen zu akzeptieren und
-                 Bedingungen, die auf dieser Seite angegeben sind.
+                These terms and conditions outline the rules and regulations for
+                the use of WromoStudio's Website, located at
+                https://wromo.com/. By accessing this website we assume you
+                accept these terms and conditions. Do not continue to use
+                WromoStudio if you do not agree to take all of the terms and
+                conditions stated on this page.
               </p>
               <p>
-              Für diese Allgemeinen Geschäftsbedingungen gilt die folgende Terminologie, Datenschutzerklärung und Haftungsausschluss sowie alle Vereinbarungen: „Kunde“, „Sie“ und „Ihr“ bezieht sich auf Sie, die Person, die sich hier anmeldet Website und den Geschäftsbedingungen des Unternehmens entsprechen. „Das Unternehmen“, „uns“, „wir“, „unser“ und „uns“ bezieht sich auf unsere Gesellschaft. „Partei“, „Parteien“ oder „uns“ bezieht sich sowohl auf den Kunden und uns selbst. Alle Bedingungen beziehen sich auf Angebot, Annahme Berücksichtigung der Zahlung, die für die Durchführung des Prozesses erforderlich ist unsere Unterstützung für den Kunden in der am besten geeigneten Weise für den ausdrücklichen Zweck, die Bedürfnisse des Kunden in Bezug auf zu erfüllen. Bereitstellung der angegebenen Dienstleistungen des Unternehmens gemäß und unterliegen dem geltenden Recht der Niederlande. Jede Verwendung der obige Terminologie oder andere Wörter im Singular, Plural, Kapitalisierung und/oder er/sie oder sie, gelten als austauschbar und daher auf dasselbe bezogen.
+                The following terminology applies to these Terms and Conditions,
+                Privacy Statement and Disclaimer Notice and all Agreements:
+                "Client", "You" and "Your" refers to you, the person log on this
+                website and compliant to the Company’s terms and conditions.
+                "The Company", "Ourselves", "We", "Our" and "Us", refers to our
+                Company. "Party", "Parties", or "Us", refers to both the Client
+                and ourselves. All terms refer to the offer, acceptance and
+                consideration of payment necessary to undertake the process of
+                our assistance to the Client in the most appropriate manner for
+                the express purpose of meeting the Client’s needs in respect of
+                provision of the Company’s stated services, in accordance with
+                and subject to, prevailing law of Netherlands. Any use of the
+                above terminology or other words in the singular, plural,
+                capitalization and/or he/she or they, are taken as
+                interchangeable and therefore as referring to same.
               </p>
             </div>
           </div>
@@ -38,8 +52,13 @@ const TermAndConditions = () => {
             </h2>
             <div className="font-sans leading-7">
               <p>
-               Wir verwenden Cookies. Durch den Zugriff auf WromoStudio haben Sie der Verwendung von Cookies in Übereinstimmung mit den Datenschutzbestimmungen von WromoStudio zugestimmt
-               Politik. Die meisten interaktiven Websites verwenden Cookies, damit wir die Benutzerdaten bei jedem Besuch abrufen können. Cookies werden von unserer Website verwendet, um die Funktionalität bestimmter Bereiche zu ermöglichen und den Besuchern unserer Website den Besuch zu erleichtern. Einige unserer Affiliate-/Werbepartner können ebenfalls Cookies verwenden.
+                We employ the use of cookies. By accessing WromoStudio, you
+                agreed to use cookies in agreement with the WromoStudio's Privacy
+                Policy. Most interactive websites use cookies to let us retrieve
+                the user’s details for each visit. Cookies are used by our
+                website to enable the functionality of certain areas to make it
+                easier for people visiting our website. Some of our
+                affiliate/advertising partners may also use cookies.
               </p>
             </div>
           </div>

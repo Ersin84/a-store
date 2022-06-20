@@ -69,7 +69,6 @@ const Login = ({ setShowResetPassword, setModalOpen }) => {
         </div>
       </form>
     </>
-
   );
 };
 

@@ -147,7 +147,7 @@ const Footer = () => {
                 AT
               </span>
               <br />
-              <span>Email: support@wromo.com</span>
+              <span>Email: suppoort@wrommo.com</span>
               <br />
               <span>Email: info.wromo@gmail.com</span>
             </p>

@@ -18,10 +18,12 @@ const FooterTop = () => {
           </div>
           <div className="text-center">
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold font-serif mb-3">
-            Holen Sie sich Ihren täglichen Bedarf aus Lieferung in Wien
+              Get Your Daily Needs From Our WromoStudio Store
             </h3>
             <p className="text-base opacity-90 leading-7">
-            Lieferservice einfach Bestellen Lieferservice für Wien.
+              There are many products you will find our shop, Choose your daily
+              necessary product from our WromoStudio shop and get some special
+              offer.
             </p>
             <div className="mt-8">
               <Link href="https://www.apple.com/app-store/">
