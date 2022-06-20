@@ -75,23 +75,26 @@ const useLoginSubmit = (setModalOpen) => {
   };
 
   const handleGoogleSignIn = (user) => {
-    UserServices.signUpWithProvider({
-      name: user.profileObj.name,
-      email: user.profileObj.email,
-      image: user.profileObj.imageUrl,
-    })
-      .then((res) => {
-        setModalOpen(false);
-        notifySuccess('Login success!');
-        router.push(redirect || '/');
-        dispatch({ type: 'USER_LOGIN', payload: res });
-        Cookies.set('userInfo', JSON.stringify(res));
+    console.log('google sign in', user);
+    if (user.profileObj.name) {
+      UserServices.signUpWithProvider({
+        name: user.profileObj.name,
+        email: user.profileObj.email,
+        image: user.profileObj.imageUrl,
       })
+        .then((res) => {
+          setModalOpen(false);
+          notifySuccess('Login success!');
+          router.push(redirect || '/');
+          dispatch({ type: 'USER_LOGIN', payload: res });
+          Cookies.set('userInfo', JSON.stringify(res));
+        })
 
-      .catch((err) => {
-        notifyError(err.message);
-        setModalOpen(false);
-      });
+        .catch((err) => {
+          notifyError(err.message);
+          setModalOpen(false);
+        });
+    }
   };
 
   return {

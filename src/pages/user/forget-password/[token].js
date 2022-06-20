@@ -165,10 +165,10 @@ const ForgetPassword = () => {
   );
 };
 
- export const getServerSideProps = async ({ params }) => {
-   return {
-     props: { params },
-   };
- };
+// export const getServerSideProps = async ({ params }) => {
+//   return {
+//     props: { params },
+//   };
+// };
 
 export default ForgetPassword;

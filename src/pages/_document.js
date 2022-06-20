@@ -17,11 +17,11 @@ class MyDocument extends Document {
           <meta property="og:type" content="eCommerce Website" />
           <meta
             property="og:description"
-            content="Next Studio Marketplace by Wromo"
+            content="Next Supermarket Marketplace by Wromo"
           />
           <meta
             property="og:url"
-            content="https://wromox.cf/"
+            content="https://www.wromo.app/"
           />
           <meta
             property="og:image"

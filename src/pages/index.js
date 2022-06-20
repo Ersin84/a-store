@@ -127,8 +127,8 @@ export const getStaticProps = async () => {
   return {
     props: {
       products: products,
-      popularProducts: popularProducts.slice(0, 50),
       discountProducts: discountProducts,
+      popularProducts: popularProducts.slice(0, 50),
     },
     revalidate: 60,
   };

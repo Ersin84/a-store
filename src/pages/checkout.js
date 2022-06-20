@@ -149,7 +149,7 @@ const Checkout = () => {
                           label="PLZ / Post"
                           name="Postleitzahl"
                           type="text"
-                          placeholder="2345"
+                          placeholder="02345"
                         />
                         <Error errorName={errors.zipCode} />
                       </div>

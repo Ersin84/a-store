@@ -18,14 +18,13 @@ const ChangePassword = () => {
   } = useForm();
 
   const onSubmit = ({ email, currentPassword, newPassword }) => {
-    notifySuccess('This feature is disable for demo!');
-     UserServices.changePassword({ email, currentPassword, newPassword })
-       .then((res) => {
-         notifySuccess(res.message);
-       })
-       .catch((err) => {
-         notifyError(err ? err.response.data.message : err.message);
-       });
+    UserServices.changePassword({ email, currentPassword, newPassword })
+      .then((res) => {
+        notifySuccess(res.message);
+      })
+      .catch((err) => {
+        notifyError(err ? err.response.data.message : err.message);
+      });
   };
 
   useEffect(() => {
